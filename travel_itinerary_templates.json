@@ -1,0 +1,306 @@
+{
+  "Paris": {
+    "3_days": [
+      {
+        "day": 1,
+        "title": "Classic Paris Landmarks",
+        "activities": [
+          "Eiffel Tower",
+          "Champs-\u00c9lys\u00e9es",
+          "Arc de Triomphe"
+        ],
+        "meals": [
+          "Caf\u00e9 breakfast",
+          "Bistro lunch",
+          "French dinner"
+        ],
+        "estimated_cost": 120,
+        "transportation": "Metro day pass"
+      },
+      {
+        "day": 2,
+        "title": "Art & Culture",
+        "activities": [
+          "Louvre Museum",
+          "Notre-Dame Cathedral",
+          "Latin Quarter"
+        ],
+        "meals": [
+          "Hotel breakfast",
+          "Museum caf\u00e9",
+          "Traditional restaurant"
+        ],
+        "estimated_cost": 95,
+        "transportation": "Walking + Metro"
+      },
+      {
+        "day": 3,
+        "title": "Montmartre & Romance",
+        "activities": [
+          "Sacr\u00e9-C\u0153ur",
+          "Montmartre District",
+          "Seine River Cruise"
+        ],
+        "meals": [
+          "Bakery breakfast",
+          "Street food",
+          "Romantic dinner"
+        ],
+        "estimated_cost": 110,
+        "transportation": "Funicular + Metro"
+      }
+    ],
+    "5_days": [
+      {
+        "day": 1,
+        "title": "Arrival & Central Paris",
+        "activities": [
+          "Hotel check-in",
+          "Tuileries Garden",
+          "Place Vend\u00f4me"
+        ],
+        "meals": [
+          "Airport snack",
+          "Caf\u00e9 lunch",
+          "Welcome dinner"
+        ],
+        "estimated_cost": 90,
+        "transportation": "Airport transfer + Metro"
+      },
+      {
+        "day": 2,
+        "title": "Iconic Landmarks",
+        "activities": [
+          "Eiffel Tower",
+          "Champs-\u00c9lys\u00e9es",
+          "Arc de Triomphe"
+        ],
+        "meals": [
+          "Hotel breakfast",
+          "Brasserie lunch",
+          "Fine dining"
+        ],
+        "estimated_cost": 140,
+        "transportation": "Metro day pass"
+      },
+      {
+        "day": 3,
+        "title": "Museums & Art",
+        "activities": [
+          "Louvre Museum",
+          "Mus\u00e9e d'Orsay",
+          "\u00cele de la Cit\u00e9"
+        ],
+        "meals": [
+          "Caf\u00e9 breakfast",
+          "Museum restaurant",
+          "Bistro dinner"
+        ],
+        "estimated_cost": 115,
+        "transportation": "Walking + Metro"
+      },
+      {
+        "day": 4,
+        "title": "Montmartre & Culture",
+        "activities": [
+          "Sacr\u00e9-C\u0153ur",
+          "Moulin Rouge area",
+          "Pigalle district"
+        ],
+        "meals": [
+          "Bakery breakfast",
+          "Local lunch",
+          "Show + dinner"
+        ],
+        "estimated_cost": 130,
+        "transportation": "Metro + Bus"
+      },
+      {
+        "day": 5,
+        "title": "Versailles Day Trip",
+        "activities": [
+          "Palace of Versailles",
+          "Versailles Gardens",
+          "Trianon"
+        ],
+        "meals": [
+          "Early breakfast",
+          "Palace caf\u00e9",
+          "Return dinner"
+        ],
+        "estimated_cost": 105,
+        "transportation": "RER train"
+      }
+    ]
+  },
+  "Tokyo": {
+    "3_days": [
+      {
+        "day": 1,
+        "title": "Traditional Tokyo",
+        "activities": [
+          "Senso-ji Temple",
+          "Asakusa district",
+          "Tokyo Skytree"
+        ],
+        "meals": [
+          "Traditional breakfast",
+          "Ramen lunch",
+          "Sushi dinner"
+        ],
+        "estimated_cost": 85,
+        "transportation": "JR Yamanote Line"
+      },
+      {
+        "day": 2,
+        "title": "Modern Tokyo",
+        "activities": [
+          "Shibuya Crossing",
+          "Harajuku",
+          "Meiji Shrine"
+        ],
+        "meals": [
+          "Hotel breakfast",
+          "Street food",
+          "Izakaya dinner"
+        ],
+        "estimated_cost": 75,
+        "transportation": "Metro day pass"
+      },
+      {
+        "day": 3,
+        "title": "Culture & Shopping",
+        "activities": [
+          "Tsukiji Market",
+          "Ginza district",
+          "Imperial Palace"
+        ],
+        "meals": [
+          "Fresh sushi breakfast",
+          "Tempura lunch",
+          "Kaiseki dinner"
+        ],
+        "estimated_cost": 120,
+        "transportation": "Walking + Metro"
+      }
+    ],
+    "4_days": [
+      {
+        "day": 1,
+        "title": "Arrival & East Tokyo",
+        "activities": [
+          "Senso-ji Temple",
+          "Asakusa",
+          "Tokyo Skytree"
+        ],
+        "meals": [
+          "Airport meal",
+          "Traditional lunch",
+          "Sushi dinner"
+        ],
+        "estimated_cost": 95,
+        "transportation": "Airport express + Metro"
+      },
+      {
+        "day": 2,
+        "title": "Central Tokyo",
+        "activities": [
+          "Imperial Palace",
+          "Ginza",
+          "Tsukiji Outer Market"
+        ],
+        "meals": [
+          "Hotel breakfast",
+          "Market street food",
+          "High-end dinner"
+        ],
+        "estimated_cost": 110,
+        "transportation": "Metro pass"
+      },
+      {
+        "day": 3,
+        "title": "West Tokyo",
+        "activities": [
+          "Shibuya",
+          "Harajuku",
+          "Meiji Shrine"
+        ],
+        "meals": [
+          "Convenience store",
+          "Themed caf\u00e9",
+          "Izakaya experience"
+        ],
+        "estimated_cost": 80,
+        "transportation": "JR lines"
+      },
+      {
+        "day": 4,
+        "title": "Modern & Traditional",
+        "activities": [
+          "Roppongi Hills",
+          "Tokyo Tower",
+          "Traditional gardens"
+        ],
+        "meals": [
+          "Western breakfast",
+          "Museum lunch",
+          "Farewell dinner"
+        ],
+        "estimated_cost": 100,
+        "transportation": "Metro + Walking"
+      }
+    ]
+  },
+  "London": {
+    "3_days": [
+      {
+        "day": 1,
+        "title": "Royal London",
+        "activities": [
+          "Buckingham Palace",
+          "Westminster Abbey",
+          "Big Ben"
+        ],
+        "meals": [
+          "English breakfast",
+          "Pub lunch",
+          "Theater dinner"
+        ],
+        "estimated_cost": 105,
+        "transportation": "Oyster Card"
+      },
+      {
+        "day": 2,
+        "title": "Museums & Culture",
+        "activities": [
+          "British Museum",
+          "Tower of London",
+          "Tower Bridge"
+        ],
+        "meals": [
+          "Hotel breakfast",
+          "Museum caf\u00e9",
+          "Fish & chips"
+        ],
+        "estimated_cost": 90,
+        "transportation": "Underground"
+      },
+      {
+        "day": 3,
+        "title": "Modern London",
+        "activities": [
+          "London Eye",
+          "Tate Modern",
+          "Covent Garden"
+        ],
+        "meals": [
+          "Caf\u00e9 breakfast",
+          "Market lunch",
+          "Fine dining"
+        ],
+        "estimated_cost": 115,
+        "transportation": "Walking + Tube"
+      }
+    ]
+  }
+}

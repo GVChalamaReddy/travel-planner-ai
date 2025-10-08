@@ -1,0 +1,301 @@
+attraction_id,name,city,country,category,entry_fee,duration_hours,rating,description,opening_hours
+1,Paris Castle,Paris,France,Historical,15,1.5,4.7,One of Paris's most visited historical destinations with stunning architecture.,9:00 AM - 6:00 PM
+2,Paris Gallery,Paris,France,Museum,20,2.0,4.6,One of Paris's most visited museum destinations with stunning architecture.,9:30 AM - 6:30 PM
+3,Paris Mosque,Paris,France,Religious,6,1.0,4.8,Experience the authentic culture and history of Paris at this renowned religious site.,9:00 AM - 6:00 PM
+4,Paris Plaza,Paris,France,Landmark,19,2.0,4.1,A must-visit landmark landmark offering breathtaking views and cultural insights.,9:30 AM - 6:30 PM
+5,Paris Souk,Paris,France,Shopping,0,4.0,4.3,A magnificent shopping attraction showcasing the rich heritage of Paris.,10:00 AM - 8:00 PM
+6,Paris Cultural Center,Paris,France,Cultural,18,2.0,3.8,A magnificent cultural attraction showcasing the rich heritage of Paris.,9:30 AM - 6:30 PM
+7,Paris Entertainment Center,Paris,France,Entertainment,27,1.0,4.7,A magnificent entertainment attraction showcasing the rich heritage of Paris.,9:00 AM - 6:00 PM
+8,Paris Nature Center,Paris,France,Nature,10,3.5,4.0,Discover the fascinating nature treasures of Paris in this world-class venue.,9:00 AM - 6:00 PM
+9,Paris Architecture Center,Paris,France,Architecture,17,3.5,4.0,A magnificent architecture attraction showcasing the rich heritage of Paris.,10:00 AM - 7:00 PM
+10,Paris Market Center,Paris,France,Market,5,8.0,4.4,Experience the authentic culture and history of Paris at this renowned market site.,9:30 AM - 6:30 PM
+11,Medieval Paris,Paris,France,Historical,15,3.0,4.5,One of Paris's most visited historical destinations with stunning architecture.,10:00 AM - 8:00 PM
+12,Paris Gallery,Paris,France,Museum,22,4.0,4.4,One of Paris's most visited museum destinations with stunning architecture.,9:00 AM - 6:00 PM
+13,Paris Temple,Paris,France,Religious,2,2.5,4.4,Experience the authentic culture and history of Paris at this renowned religious site.,10:00 AM - 8:00 PM
+14,Paris Viewpoint,Paris,France,Landmark,16,4.0,4.4,Discover the fascinating landmark treasures of Paris in this world-class venue.,9:00 AM - 6:00 PM
+15,Paris Bazaar,Paris,France,Shopping,0,2.0,3.6,A magnificent shopping attraction showcasing the rich heritage of Paris.,9:00 AM - 6:00 PM
+16,Paris Cultural Center,Paris,France,Cultural,15,8.0,4.8,Experience the authentic culture and history of Paris at this renowned cultural site.,10:00 AM - 7:00 PM
+17,Paris Entertainment Center,Paris,France,Entertainment,41,3.5,3.6,Experience the authentic culture and history of Paris at this renowned entertainment site.,9:30 AM - 6:30 PM
+18,Paris Nature Center,Paris,France,Nature,15,5.0,4.1,One of Paris's most visited nature destinations with stunning architecture.,8:00 AM - 5:00 PM
+19,Paris Architecture Center,Paris,France,Architecture,13,1.5,4.2,A magnificent architecture attraction showcasing the rich heritage of Paris.,10:00 AM - 7:00 PM
+20,Paris Market Center,Paris,France,Market,3,1.0,4.4,Discover the fascinating market treasures of Paris in this world-class venue.,10:00 AM - 7:00 PM
+21,Old Paris,Paris,France,Historical,10,3.5,5.0,Experience the authentic culture and history of Paris at this renowned historical site.,10:00 AM - 8:00 PM
+22,Paris Art Museum,Paris,France,Museum,23,3.5,4.9,A magnificent museum attraction showcasing the rich heritage of Paris.,10:00 AM - 8:00 PM
+23,Paris Shrine,Paris,France,Religious,7,1.0,4.3,A must-visit religious landmark offering breathtaking views and cultural insights.,9:00 AM - 6:00 PM
+24,Iconic Paris,Paris,France,Landmark,5,5.0,3.6,Experience the authentic culture and history of Paris at this renowned landmark site.,9:30 AM - 6:30 PM
+25,Paris Mall,Paris,France,Shopping,0,5.0,4.5,A must-visit shopping landmark offering breathtaking views and cultural insights.,10:00 AM - 8:00 PM
+26,Paris Cultural Center,Paris,France,Cultural,19,3.0,4.1,One of Paris's most visited cultural destinations with stunning architecture.,9:00 AM - 6:00 PM
+27,Paris Entertainment Center,Paris,France,Entertainment,20,5.0,4.3,Discover the fascinating entertainment treasures of Paris in this world-class venue.,9:00 AM - 6:00 PM
+28,Paris Nature Center,Paris,France,Nature,12,5.0,4.5,A must-visit nature landmark offering breathtaking views and cultural insights.,9:30 AM - 6:30 PM
+29,Paris Architecture Center,Paris,France,Architecture,14,3.5,4.0,A must-visit architecture landmark offering breathtaking views and cultural insights.,10:00 AM - 7:00 PM
+30,Paris Market Center,Paris,France,Market,4,3.0,4.9,Experience the authentic culture and history of Paris at this renowned market site.,24 hours
+31,Ancient London,London,UK,Historical,21,1.0,3.8,A magnificent historical attraction showcasing the rich heritage of London.,8:00 AM - 5:00 PM
+32,London Cultural Center,London,UK,Museum,25,1.5,4.3,One of London's most visited museum destinations with stunning architecture.,10:00 AM - 8:00 PM
+33,London Shrine,London,UK,Religious,4,3.0,4.0,A must-visit religious landmark offering breathtaking views and cultural insights.,10:00 AM - 8:00 PM
+34,London Monument,London,UK,Landmark,13,3.0,4.4,Experience the authentic culture and history of London at this renowned landmark site.,10:00 AM - 8:00 PM
+35,Traditional London Market,London,UK,Shopping,0,3.5,4.0,Experience the authentic culture and history of London at this renowned shopping site.,9:30 AM - 6:30 PM
+36,London Cultural Center,London,UK,Cultural,13,1.5,4.6,Discover the fascinating cultural treasures of London in this world-class venue.,9:30 AM - 6:30 PM
+37,London Entertainment Center,London,UK,Entertainment,50,1.0,4.7,A magnificent entertainment attraction showcasing the rich heritage of London.,9:00 AM - 6:00 PM
+38,London Nature Center,London,UK,Nature,15,3.0,4.4,One of London's most visited nature destinations with stunning architecture.,9:00 AM - 6:00 PM
+39,London Architecture Center,London,UK,Architecture,15,8.0,3.7,Experience the authentic culture and history of London at this renowned architecture site.,9:30 AM - 6:30 PM
+40,London Market Center,London,UK,Market,4,1.5,4.5,A magnificent market attraction showcasing the rich heritage of London.,9:30 AM - 6:30 PM
+41,London Fortress,London,UK,Historical,16,1.0,4.0,Discover the fascinating historical treasures of London in this world-class venue.,9:00 AM - 6:00 PM
+42,London Gallery,London,UK,Museum,21,1.5,4.8,Discover the fascinating museum treasures of London in this world-class venue.,10:00 AM - 8:00 PM
+43,London Monastery,London,UK,Religious,10,3.5,4.3,A must-visit religious landmark offering breathtaking views and cultural insights.,10:00 AM - 8:00 PM
+44,London Plaza,London,UK,Landmark,16,1.0,4.2,Experience the authentic culture and history of London at this renowned landmark site.,9:00 AM - 6:00 PM
+45,London Fashion Street,London,UK,Shopping,0,8.0,3.7,One of London's most visited shopping destinations with stunning architecture.,9:00 AM - 6:00 PM
+46,London Cultural Center,London,UK,Cultural,25,2.0,3.6,A magnificent cultural attraction showcasing the rich heritage of London.,10:00 AM - 8:00 PM
+47,London Entertainment Center,London,UK,Entertainment,37,1.5,4.9,A magnificent entertainment attraction showcasing the rich heritage of London.,8:00 AM - 5:00 PM
+48,London Nature Center,London,UK,Nature,14,8.0,3.6,Discover the fascinating nature treasures of London in this world-class venue.,8:00 AM - 5:00 PM
+49,London Architecture Center,London,UK,Architecture,18,2.5,4.0,A magnificent architecture attraction showcasing the rich heritage of London.,9:30 AM - 6:30 PM
+50,London Market Center,London,UK,Market,5,1.5,3.7,Experience the authentic culture and history of London at this renowned market site.,24 hours
+51,Royal London Complex,London,UK,Historical,11,1.0,3.7,A magnificent historical attraction showcasing the rich heritage of London.,9:00 AM - 6:00 PM
+52,London Cultural Center,London,UK,Museum,29,6.0,4.6,A magnificent museum attraction showcasing the rich heritage of London.,9:00 AM - 6:00 PM
+53,London Monastery,London,UK,Religious,0,2.0,4.1,Discover the fascinating religious treasures of London in this world-class venue.,10:00 AM - 7:00 PM
+54,London Plaza,London,UK,Landmark,20,6.0,4.1,A must-visit landmark landmark offering breathtaking views and cultural insights.,9:00 AM - 6:00 PM
+55,London Mall,London,UK,Shopping,0,3.5,3.6,One of London's most visited shopping destinations with stunning architecture.,9:30 AM - 6:30 PM
+56,London Cultural Center,London,UK,Cultural,13,5.0,3.5,Discover the fascinating cultural treasures of London in this world-class venue.,9:00 AM - 6:00 PM
+57,London Entertainment Center,London,UK,Entertainment,20,2.0,4.1,Discover the fascinating entertainment treasures of London in this world-class venue.,8:00 AM - 5:00 PM
+58,London Nature Center,London,UK,Nature,7,1.0,3.7,Experience the authentic culture and history of London at this renowned nature site.,10:00 AM - 8:00 PM
+59,London Architecture Center,London,UK,Architecture,10,5.0,4.5,Experience the authentic culture and history of London at this renowned architecture site.,9:00 AM - 6:00 PM
+60,London Market Center,London,UK,Market,1,4.0,3.8,One of London's most visited market destinations with stunning architecture.,8:00 AM - 5:00 PM
+61,Tokyo Palace,Tokyo,Japan,Historical,23,3.5,4.8,Experience the authentic culture and history of Tokyo at this renowned historical site.,8:00 AM - 5:00 PM
+62,National Tokyo Museum,Tokyo,Japan,Museum,30,2.5,4.7,A must-visit museum landmark offering breathtaking views and cultural insights.,9:00 AM - 6:00 PM
+63,Tokyo Temple,Tokyo,Japan,Religious,8,1.0,4.0,One of Tokyo's most visited religious destinations with stunning architecture.,9:30 AM - 6:30 PM
+64,Tokyo Tower,Tokyo,Japan,Landmark,19,6.0,3.8,A must-visit landmark landmark offering breathtaking views and cultural insights.,8:00 AM - 5:00 PM
+65,Tokyo Shopping District,Tokyo,Japan,Shopping,0,3.5,4.3,One of Tokyo's most visited shopping destinations with stunning architecture.,8:00 AM - 5:00 PM
+66,Tokyo Cultural Center,Tokyo,Japan,Cultural,17,2.0,3.5,Discover the fascinating cultural treasures of Tokyo in this world-class venue.,9:30 AM - 6:30 PM
+67,Tokyo Entertainment Center,Tokyo,Japan,Entertainment,26,8.0,3.6,A magnificent entertainment attraction showcasing the rich heritage of Tokyo.,9:00 AM - 6:00 PM
+68,Tokyo Nature Center,Tokyo,Japan,Nature,10,1.5,3.7,One of Tokyo's most visited nature destinations with stunning architecture.,9:00 AM - 6:00 PM
+69,Tokyo Architecture Center,Tokyo,Japan,Architecture,17,3.5,3.8,Discover the fascinating architecture treasures of Tokyo in this world-class venue.,8:00 AM - 5:00 PM
+70,Tokyo Market Center,Tokyo,Japan,Market,0,5.0,4.2,Discover the fascinating market treasures of Tokyo in this world-class venue.,9:00 AM - 6:00 PM
+71,Royal Tokyo Complex,Tokyo,Japan,Historical,23,1.5,4.0,One of Tokyo's most visited historical destinations with stunning architecture.,8:00 AM - 5:00 PM
+72,Tokyo History Museum,Tokyo,Japan,Museum,22,2.0,4.0,One of Tokyo's most visited museum destinations with stunning architecture.,10:00 AM - 8:00 PM
+73,Tokyo Temple,Tokyo,Japan,Religious,3,4.0,4.7,A magnificent religious attraction showcasing the rich heritage of Tokyo.,9:00 AM - 6:00 PM
+74,Iconic Tokyo,Tokyo,Japan,Landmark,8,2.5,4.9,A must-visit landmark landmark offering breathtaking views and cultural insights.,9:00 AM - 6:00 PM
+75,Tokyo Bazaar,Tokyo,Japan,Shopping,0,1.0,3.5,A must-visit shopping landmark offering breathtaking views and cultural insights.,9:00 AM - 6:00 PM
+76,Tokyo Cultural Center,Tokyo,Japan,Cultural,15,2.5,4.9,A magnificent cultural attraction showcasing the rich heritage of Tokyo.,8:00 AM - 5:00 PM
+77,Tokyo Entertainment Center,Tokyo,Japan,Entertainment,34,1.0,4.0,Experience the authentic culture and history of Tokyo at this renowned entertainment site.,10:00 AM - 8:00 PM
+78,Tokyo Nature Center,Tokyo,Japan,Nature,6,2.0,3.8,A must-visit nature landmark offering breathtaking views and cultural insights.,8:00 AM - 5:00 PM
+79,Tokyo Architecture Center,Tokyo,Japan,Architecture,17,3.5,4.9,One of Tokyo's most visited architecture destinations with stunning architecture.,10:00 AM - 8:00 PM
+80,Tokyo Market Center,Tokyo,Japan,Market,5,3.5,4.9,Discover the fascinating market treasures of Tokyo in this world-class venue.,8:00 AM - 5:00 PM
+81,Historic Tokyo,Tokyo,Japan,Historical,23,3.0,4.3,A must-visit historical landmark offering breathtaking views and cultural insights.,9:00 AM - 6:00 PM
+82,Tokyo Art Museum,Tokyo,Japan,Museum,28,5.0,4.0,Discover the fascinating museum treasures of Tokyo in this world-class venue.,9:30 AM - 6:30 PM
+83,Tokyo Basilica,Tokyo,Japan,Religious,4,8.0,3.7,A magnificent religious attraction showcasing the rich heritage of Tokyo.,9:00 AM - 6:00 PM
+84,Tokyo Monument,Tokyo,Japan,Landmark,8,3.5,4.2,One of Tokyo's most visited landmark destinations with stunning architecture.,9:30 AM - 6:30 PM
+85,Tokyo Market,Tokyo,Japan,Shopping,0,5.0,4.5,Experience the authentic culture and history of Tokyo at this renowned shopping site.,8:00 AM - 5:00 PM
+86,Tokyo Cultural Center,Tokyo,Japan,Cultural,21,4.0,3.8,One of Tokyo's most visited cultural destinations with stunning architecture.,9:30 AM - 6:30 PM
+87,Tokyo Entertainment Center,Tokyo,Japan,Entertainment,24,3.0,4.8,Discover the fascinating entertainment treasures of Tokyo in this world-class venue.,8:00 AM - 5:00 PM
+88,Tokyo Nature Center,Tokyo,Japan,Nature,12,6.0,4.0,A magnificent nature attraction showcasing the rich heritage of Tokyo.,9:00 AM - 6:00 PM
+89,Tokyo Architecture Center,Tokyo,Japan,Architecture,18,1.5,3.7,A must-visit architecture landmark offering breathtaking views and cultural insights.,9:00 AM - 6:00 PM
+90,Tokyo Market Center,Tokyo,Japan,Market,1,3.0,4.3,Experience the authentic culture and history of Tokyo at this renowned market site.,24 hours
+91,New York Fortress,New York,USA,Historical,19,1.0,4.9,A magnificent historical attraction showcasing the rich heritage of New York.,9:00 AM - 6:00 PM
+92,New York Art Museum,New York,USA,Museum,20,3.5,4.6,Experience the authentic culture and history of New York at this renowned museum site.,9:30 AM - 6:30 PM
+93,New York Shrine,New York,USA,Religious,6,1.0,4.9,A magnificent religious attraction showcasing the rich heritage of New York.,9:00 AM - 6:00 PM
+94,Iconic New York,New York,USA,Landmark,5,4.0,4.5,One of New York's most visited landmark destinations with stunning architecture.,9:00 AM - 6:00 PM
+95,New York Souk,New York,USA,Shopping,0,1.0,4.3,Experience the authentic culture and history of New York at this renowned shopping site.,8:00 AM - 5:00 PM
+96,New York Cultural Center,New York,USA,Cultural,12,2.5,4.1,Experience the authentic culture and history of New York at this renowned cultural site.,9:00 AM - 6:00 PM
+97,New York Entertainment Center,New York,USA,Entertainment,40,3.0,4.7,One of New York's most visited entertainment destinations with stunning architecture.,8:00 AM - 5:00 PM
+98,New York Nature Center,New York,USA,Nature,7,3.5,4.1,A magnificent nature attraction showcasing the rich heritage of New York.,9:00 AM - 6:00 PM
+99,New York Architecture Center,New York,USA,Architecture,13,8.0,3.8,One of New York's most visited architecture destinations with stunning architecture.,10:00 AM - 7:00 PM
+100,New York Market Center,New York,USA,Market,4,3.0,4.1,One of New York's most visited market destinations with stunning architecture.,8:00 AM - 5:00 PM
+101,New York Palace,New York,USA,Historical,23,2.0,3.7,Discover the fascinating historical treasures of New York in this world-class venue.,9:00 AM - 6:00 PM
+102,New York Cultural Center,New York,USA,Museum,17,2.5,3.9,A magnificent museum attraction showcasing the rich heritage of New York.,10:00 AM - 8:00 PM
+103,New York Monastery,New York,USA,Religious,5,1.5,4.4,One of New York's most visited religious destinations with stunning architecture.,10:00 AM - 7:00 PM
+104,Famous New York Spot,New York,USA,Landmark,11,3.5,4.1,One of New York's most visited landmark destinations with stunning architecture.,10:00 AM - 7:00 PM
+105,Traditional New York Market,New York,USA,Shopping,0,5.0,4.5,One of New York's most visited shopping destinations with stunning architecture.,8:00 AM - 5:00 PM
+106,New York Cultural Center,New York,USA,Cultural,20,3.0,4.9,Experience the authentic culture and history of New York at this renowned cultural site.,9:00 AM - 6:00 PM
+107,New York Entertainment Center,New York,USA,Entertainment,28,3.5,3.6,One of New York's most visited entertainment destinations with stunning architecture.,9:00 AM - 6:00 PM
+108,New York Nature Center,New York,USA,Nature,13,3.5,4.5,A magnificent nature attraction showcasing the rich heritage of New York.,9:00 AM - 6:00 PM
+109,New York Architecture Center,New York,USA,Architecture,18,6.0,4.4,Experience the authentic culture and history of New York at this renowned architecture site.,10:00 AM - 8:00 PM
+110,New York Market Center,New York,USA,Market,4,2.0,3.6,One of New York's most visited market destinations with stunning architecture.,24 hours
+111,Traditional New York,New York,USA,Historical,25,6.0,3.8,Experience the authentic culture and history of New York at this renowned historical site.,10:00 AM - 7:00 PM
+112,New York Art Museum,New York,USA,Museum,30,1.5,4.2,One of New York's most visited museum destinations with stunning architecture.,10:00 AM - 8:00 PM
+113,New York Shrine,New York,USA,Religious,9,2.5,4.6,Experience the authentic culture and history of New York at this renowned religious site.,10:00 AM - 8:00 PM
+114,New York Square,New York,USA,Landmark,9,3.5,4.3,A must-visit landmark landmark offering breathtaking views and cultural insights.,9:00 AM - 6:00 PM
+115,Grand New York Arcade,New York,USA,Shopping,0,2.0,3.9,A magnificent shopping attraction showcasing the rich heritage of New York.,9:00 AM - 6:00 PM
+116,New York Cultural Center,New York,USA,Cultural,25,2.0,4.8,A magnificent cultural attraction showcasing the rich heritage of New York.,9:00 AM - 6:00 PM
+117,New York Entertainment Center,New York,USA,Entertainment,45,4.0,4.9,Experience the authentic culture and history of New York at this renowned entertainment site.,9:00 AM - 6:00 PM
+118,New York Nature Center,New York,USA,Nature,7,5.0,4.8,A must-visit nature landmark offering breathtaking views and cultural insights.,9:30 AM - 6:30 PM
+119,New York Architecture Center,New York,USA,Architecture,9,2.0,3.7,Experience the authentic culture and history of New York at this renowned architecture site.,9:00 AM - 6:00 PM
+120,New York Market Center,New York,USA,Market,3,1.0,3.7,A magnificent market attraction showcasing the rich heritage of New York.,10:00 AM - 7:00 PM
+121,Medieval Dubai,Dubai,UAE,Historical,15,1.5,4.4,One of Dubai's most visited historical destinations with stunning architecture.,8:00 AM - 5:00 PM
+122,Modern Dubai Museum,Dubai,UAE,Museum,29,2.5,4.3,Experience the authentic culture and history of Dubai at this renowned museum site.,9:30 AM - 6:30 PM
+123,Dubai Shrine,Dubai,UAE,Religious,7,8.0,4.0,One of Dubai's most visited religious destinations with stunning architecture.,9:00 AM - 6:00 PM
+124,Dubai Tower,Dubai,UAE,Landmark,13,2.5,3.5,A magnificent landmark attraction showcasing the rich heritage of Dubai.,10:00 AM - 7:00 PM
+125,Dubai Fashion Street,Dubai,UAE,Shopping,0,8.0,3.6,A magnificent shopping attraction showcasing the rich heritage of Dubai.,9:00 AM - 6:00 PM
+126,Dubai Cultural Center,Dubai,UAE,Cultural,13,2.0,3.6,Discover the fascinating cultural treasures of Dubai in this world-class venue.,10:00 AM - 7:00 PM
+127,Dubai Entertainment Center,Dubai,UAE,Entertainment,40,3.5,3.6,A must-visit entertainment landmark offering breathtaking views and cultural insights.,9:00 AM - 6:00 PM
+128,Dubai Nature Center,Dubai,UAE,Nature,12,8.0,4.7,Discover the fascinating nature treasures of Dubai in this world-class venue.,10:00 AM - 8:00 PM
+129,Dubai Architecture Center,Dubai,UAE,Architecture,15,8.0,4.5,A must-visit architecture landmark offering breathtaking views and cultural insights.,8:00 AM - 5:00 PM
+130,Dubai Market Center,Dubai,UAE,Market,2,5.0,3.7,Experience the authentic culture and history of Dubai at this renowned market site.,8:00 AM - 5:00 PM
+131,Medieval Dubai,Dubai,UAE,Historical,14,3.0,3.9,A magnificent historical attraction showcasing the rich heritage of Dubai.,10:00 AM - 7:00 PM
+132,Dubai Art Museum,Dubai,UAE,Museum,23,4.0,4.5,A must-visit museum landmark offering breathtaking views and cultural insights.,8:00 AM - 5:00 PM
+133,Dubai Shrine,Dubai,UAE,Religious,10,2.0,4.3,One of Dubai's most visited religious destinations with stunning architecture.,10:00 AM - 8:00 PM
+134,Dubai Plaza,Dubai,UAE,Landmark,7,1.5,4.1,A must-visit landmark landmark offering breathtaking views and cultural insights.,10:00 AM - 8:00 PM
+135,Dubai Bazaar,Dubai,UAE,Shopping,0,2.5,3.9,A must-visit shopping landmark offering breathtaking views and cultural insights.,9:30 AM - 6:30 PM
+136,Dubai Cultural Center,Dubai,UAE,Cultural,18,3.0,4.8,Discover the fascinating cultural treasures of Dubai in this world-class venue.,8:00 AM - 5:00 PM
+137,Dubai Entertainment Center,Dubai,UAE,Entertainment,22,4.0,4.7,One of Dubai's most visited entertainment destinations with stunning architecture.,9:30 AM - 6:30 PM
+138,Dubai Nature Center,Dubai,UAE,Nature,6,1.5,3.8,Experience the authentic culture and history of Dubai at this renowned nature site.,10:00 AM - 7:00 PM
+139,Dubai Architecture Center,Dubai,UAE,Architecture,13,8.0,4.8,A magnificent architecture attraction showcasing the rich heritage of Dubai.,9:00 AM - 6:00 PM
+140,Dubai Market Center,Dubai,UAE,Market,3,8.0,4.2,A must-visit market landmark offering breathtaking views and cultural insights.,8:00 AM - 5:00 PM
+141,Dubai Palace,Dubai,UAE,Historical,23,3.5,4.7,Experience the authentic culture and history of Dubai at this renowned historical site.,10:00 AM - 8:00 PM
+142,Dubai Cultural Center,Dubai,UAE,Museum,29,6.0,3.6,A must-visit museum landmark offering breathtaking views and cultural insights.,10:00 AM - 8:00 PM
+143,Dubai Cathedral,Dubai,UAE,Religious,0,1.0,4.8,Experience the authentic culture and history of Dubai at this renowned religious site.,9:30 AM - 6:30 PM
+144,Dubai Bridge,Dubai,UAE,Landmark,12,3.5,3.5,A must-visit landmark landmark offering breathtaking views and cultural insights.,9:00 AM - 6:00 PM
+145,Traditional Dubai Market,Dubai,UAE,Shopping,0,3.5,5.0,Experience the authentic culture and history of Dubai at this renowned shopping site.,9:00 AM - 6:00 PM
+146,Dubai Cultural Center,Dubai,UAE,Cultural,17,3.5,3.9,Experience the authentic culture and history of Dubai at this renowned cultural site.,10:00 AM - 8:00 PM
+147,Dubai Entertainment Center,Dubai,UAE,Entertainment,22,5.0,4.3,A must-visit entertainment landmark offering breathtaking views and cultural insights.,10:00 AM - 8:00 PM
+148,Dubai Nature Center,Dubai,UAE,Nature,6,6.0,3.9,A magnificent nature attraction showcasing the rich heritage of Dubai.,9:00 AM - 6:00 PM
+149,Dubai Architecture Center,Dubai,UAE,Architecture,8,6.0,5.0,A magnificent architecture attraction showcasing the rich heritage of Dubai.,10:00 AM - 7:00 PM
+150,Dubai Market Center,Dubai,UAE,Market,5,5.0,4.7,A magnificent market attraction showcasing the rich heritage of Dubai.,10:00 AM - 7:00 PM
+151,Royal Barcelona Complex,Barcelona,Spain,Historical,15,2.0,4.7,A magnificent historical attraction showcasing the rich heritage of Barcelona.,9:30 AM - 6:30 PM
+152,Barcelona Gallery,Barcelona,Spain,Museum,24,8.0,4.4,A magnificent museum attraction showcasing the rich heritage of Barcelona.,10:00 AM - 8:00 PM
+153,Barcelona Mosque,Barcelona,Spain,Religious,5,2.0,3.8,A magnificent religious attraction showcasing the rich heritage of Barcelona.,9:30 AM - 6:30 PM
+154,Barcelona Monument,Barcelona,Spain,Landmark,6,8.0,3.7,One of Barcelona's most visited landmark destinations with stunning architecture.,10:00 AM - 7:00 PM
+155,Barcelona Shopping District,Barcelona,Spain,Shopping,0,3.0,4.0,Experience the authentic culture and history of Barcelona at this renowned shopping site.,9:30 AM - 6:30 PM
+156,Barcelona Cultural Center,Barcelona,Spain,Cultural,25,2.5,4.5,Discover the fascinating cultural treasures of Barcelona in this world-class venue.,10:00 AM - 8:00 PM
+157,Barcelona Entertainment Center,Barcelona,Spain,Entertainment,28,3.5,4.4,One of Barcelona's most visited entertainment destinations with stunning architecture.,10:00 AM - 8:00 PM
+158,Barcelona Nature Center,Barcelona,Spain,Nature,12,2.0,4.6,Discover the fascinating nature treasures of Barcelona in this world-class venue.,9:00 AM - 6:00 PM
+159,Barcelona Architecture Center,Barcelona,Spain,Architecture,17,8.0,3.6,One of Barcelona's most visited architecture destinations with stunning architecture.,9:00 AM - 6:00 PM
+160,Barcelona Market Center,Barcelona,Spain,Market,4,5.0,4.0,A must-visit market landmark offering breathtaking views and cultural insights.,24 hours
+161,Old Barcelona,Barcelona,Spain,Historical,25,8.0,3.9,A must-visit historical landmark offering breathtaking views and cultural insights.,8:00 AM - 5:00 PM
+162,Barcelona Gallery,Barcelona,Spain,Museum,25,5.0,4.0,Discover the fascinating museum treasures of Barcelona in this world-class venue.,9:00 AM - 6:00 PM
+163,Sacred Barcelona Site,Barcelona,Spain,Religious,10,2.0,5.0,A must-visit religious landmark offering breathtaking views and cultural insights.,8:00 AM - 5:00 PM
+164,Barcelona Monument,Barcelona,Spain,Landmark,13,5.0,4.8,A magnificent landmark attraction showcasing the rich heritage of Barcelona.,8:00 AM - 5:00 PM
+165,Barcelona Bazaar,Barcelona,Spain,Shopping,0,8.0,3.9,Experience the authentic culture and history of Barcelona at this renowned shopping site.,9:00 AM - 6:00 PM
+166,Barcelona Cultural Center,Barcelona,Spain,Cultural,14,2.5,4.2,Experience the authentic culture and history of Barcelona at this renowned cultural site.,9:00 AM - 6:00 PM
+167,Barcelona Entertainment Center,Barcelona,Spain,Entertainment,45,3.0,4.0,Experience the authentic culture and history of Barcelona at this renowned entertainment site.,8:00 AM - 5:00 PM
+168,Barcelona Nature Center,Barcelona,Spain,Nature,11,3.0,3.6,A must-visit nature landmark offering breathtaking views and cultural insights.,9:00 AM - 6:00 PM
+169,Barcelona Architecture Center,Barcelona,Spain,Architecture,17,8.0,5.0,One of Barcelona's most visited architecture destinations with stunning architecture.,8:00 AM - 5:00 PM
+170,Barcelona Market Center,Barcelona,Spain,Market,3,5.0,3.7,Discover the fascinating market treasures of Barcelona in this world-class venue.,24 hours
+171,Ancient Barcelona,Barcelona,Spain,Historical,20,4.0,5.0,Experience the authentic culture and history of Barcelona at this renowned historical site.,9:00 AM - 6:00 PM
+172,Modern Barcelona Museum,Barcelona,Spain,Museum,25,8.0,3.7,Experience the authentic culture and history of Barcelona at this renowned museum site.,8:00 AM - 5:00 PM
+173,Sacred Barcelona Site,Barcelona,Spain,Religious,6,1.0,4.7,A magnificent religious attraction showcasing the rich heritage of Barcelona.,10:00 AM - 7:00 PM
+174,Barcelona Bridge,Barcelona,Spain,Landmark,8,1.0,4.8,A magnificent landmark attraction showcasing the rich heritage of Barcelona.,9:00 AM - 6:00 PM
+175,Barcelona Bazaar,Barcelona,Spain,Shopping,0,4.0,4.9,A must-visit shopping landmark offering breathtaking views and cultural insights.,9:00 AM - 6:00 PM
+176,Barcelona Cultural Center,Barcelona,Spain,Cultural,22,3.5,4.8,A magnificent cultural attraction showcasing the rich heritage of Barcelona.,10:00 AM - 8:00 PM
+177,Barcelona Entertainment Center,Barcelona,Spain,Entertainment,41,3.5,4.3,A must-visit entertainment landmark offering breathtaking views and cultural insights.,9:30 AM - 6:30 PM
+178,Barcelona Nature Center,Barcelona,Spain,Nature,11,2.5,4.9,Experience the authentic culture and history of Barcelona at this renowned nature site.,9:00 AM - 6:00 PM
+179,Barcelona Architecture Center,Barcelona,Spain,Architecture,15,1.5,4.2,One of Barcelona's most visited architecture destinations with stunning architecture.,10:00 AM - 8:00 PM
+180,Barcelona Market Center,Barcelona,Spain,Market,4,1.0,3.6,A must-visit market landmark offering breathtaking views and cultural insights.,9:00 AM - 6:00 PM
+181,Historic Rome,Rome,Italy,Historical,10,2.5,3.6,Discover the fascinating historical treasures of Rome in this world-class venue.,9:30 AM - 6:30 PM
+182,Rome History Museum,Rome,Italy,Museum,23,2.5,3.8,Discover the fascinating museum treasures of Rome in this world-class venue.,10:00 AM - 7:00 PM
+183,Rome Mosque,Rome,Italy,Religious,7,3.5,4.7,One of Rome's most visited religious destinations with stunning architecture.,9:30 AM - 6:30 PM
+184,Rome Plaza,Rome,Italy,Landmark,6,8.0,4.2,Experience the authentic culture and history of Rome at this renowned landmark site.,10:00 AM - 8:00 PM
+185,Rome Bazaar,Rome,Italy,Shopping,0,1.5,4.3,Experience the authentic culture and history of Rome at this renowned shopping site.,9:00 AM - 6:00 PM
+186,Rome Cultural Center,Rome,Italy,Cultural,21,6.0,4.8,Experience the authentic culture and history of Rome at this renowned cultural site.,9:00 AM - 6:00 PM
+187,Rome Entertainment Center,Rome,Italy,Entertainment,24,2.5,3.6,One of Rome's most visited entertainment destinations with stunning architecture.,10:00 AM - 8:00 PM
+188,Rome Nature Center,Rome,Italy,Nature,11,4.0,4.7,Discover the fascinating nature treasures of Rome in this world-class venue.,8:00 AM - 5:00 PM
+189,Rome Architecture Center,Rome,Italy,Architecture,17,3.5,4.8,Discover the fascinating architecture treasures of Rome in this world-class venue.,9:30 AM - 6:30 PM
+190,Rome Market Center,Rome,Italy,Market,5,1.0,4.2,A magnificent market attraction showcasing the rich heritage of Rome.,10:00 AM - 8:00 PM
+191,Rome Palace,Rome,Italy,Historical,19,8.0,3.8,A must-visit historical landmark offering breathtaking views and cultural insights.,8:00 AM - 5:00 PM
+192,Rome History Museum,Rome,Italy,Museum,18,1.0,3.6,Experience the authentic culture and history of Rome at this renowned museum site.,9:30 AM - 6:30 PM
+193,Rome Monastery,Rome,Italy,Religious,4,1.0,4.5,One of Rome's most visited religious destinations with stunning architecture.,8:00 AM - 5:00 PM
+194,Rome Tower,Rome,Italy,Landmark,6,5.0,3.9,A magnificent landmark attraction showcasing the rich heritage of Rome.,9:00 AM - 6:00 PM
+195,Rome Shopping District,Rome,Italy,Shopping,0,3.0,4.4,A magnificent shopping attraction showcasing the rich heritage of Rome.,10:00 AM - 8:00 PM
+196,Rome Cultural Center,Rome,Italy,Cultural,22,4.0,4.4,Discover the fascinating cultural treasures of Rome in this world-class venue.,10:00 AM - 8:00 PM
+197,Rome Entertainment Center,Rome,Italy,Entertainment,26,1.5,4.9,Experience the authentic culture and history of Rome at this renowned entertainment site.,9:30 AM - 6:30 PM
+198,Rome Nature Center,Rome,Italy,Nature,15,8.0,4.7,A must-visit nature landmark offering breathtaking views and cultural insights.,8:00 AM - 5:00 PM
+199,Rome Architecture Center,Rome,Italy,Architecture,12,3.5,4.6,A magnificent architecture attraction showcasing the rich heritage of Rome.,9:00 AM - 6:00 PM
+200,Rome Market Center,Rome,Italy,Market,5,3.5,4.6,Experience the authentic culture and history of Rome at this renowned market site.,10:00 AM - 7:00 PM
+201,Royal Rome Complex,Rome,Italy,Historical,13,8.0,4.4,Experience the authentic culture and history of Rome at this renowned historical site.,9:00 AM - 6:00 PM
+202,Rome Art Museum,Rome,Italy,Museum,15,1.0,4.1,A must-visit museum landmark offering breathtaking views and cultural insights.,9:30 AM - 6:30 PM
+203,Rome Monastery,Rome,Italy,Religious,10,3.5,3.8,A must-visit religious landmark offering breathtaking views and cultural insights.,9:00 AM - 6:00 PM
+204,Rome Plaza,Rome,Italy,Landmark,12,2.5,3.5,A magnificent landmark attraction showcasing the rich heritage of Rome.,8:00 AM - 5:00 PM
+205,Traditional Rome Market,Rome,Italy,Shopping,0,2.5,3.8,A must-visit shopping landmark offering breathtaking views and cultural insights.,9:00 AM - 6:00 PM
+206,Rome Cultural Center,Rome,Italy,Cultural,13,6.0,4.1,A must-visit cultural landmark offering breathtaking views and cultural insights.,10:00 AM - 8:00 PM
+207,Rome Entertainment Center,Rome,Italy,Entertainment,44,5.0,5.0,A magnificent entertainment attraction showcasing the rich heritage of Rome.,9:00 AM - 6:00 PM
+208,Rome Nature Center,Rome,Italy,Nature,5,1.5,3.9,A must-visit nature landmark offering breathtaking views and cultural insights.,9:00 AM - 6:00 PM
+209,Rome Architecture Center,Rome,Italy,Architecture,8,2.0,4.2,A must-visit architecture landmark offering breathtaking views and cultural insights.,8:00 AM - 5:00 PM
+210,Rome Market Center,Rome,Italy,Market,2,2.5,3.8,Discover the fascinating market treasures of Rome in this world-class venue.,8:00 AM - 5:00 PM
+211,Medieval Bangkok,Bangkok,Thailand,Historical,17,3.5,4.1,Experience the authentic culture and history of Bangkok at this renowned historical site.,9:00 AM - 6:00 PM
+212,Bangkok Art Museum,Bangkok,Thailand,Museum,15,2.0,4.9,A magnificent museum attraction showcasing the rich heritage of Bangkok.,10:00 AM - 7:00 PM
+213,Bangkok Cathedral,Bangkok,Thailand,Religious,1,8.0,4.9,Discover the fascinating religious treasures of Bangkok in this world-class venue.,8:00 AM - 5:00 PM
+214,Bangkok Viewpoint,Bangkok,Thailand,Landmark,20,2.0,3.6,Discover the fascinating landmark treasures of Bangkok in this world-class venue.,9:30 AM - 6:30 PM
+215,Bangkok Shopping District,Bangkok,Thailand,Shopping,0,2.5,4.1,Experience the authentic culture and history of Bangkok at this renowned shopping site.,8:00 AM - 5:00 PM
+216,Bangkok Cultural Center,Bangkok,Thailand,Cultural,15,8.0,4.2,Experience the authentic culture and history of Bangkok at this renowned cultural site.,9:00 AM - 6:00 PM
+217,Bangkok Entertainment Center,Bangkok,Thailand,Entertainment,47,3.0,4.1,A magnificent entertainment attraction showcasing the rich heritage of Bangkok.,10:00 AM - 8:00 PM
+218,Bangkok Nature Center,Bangkok,Thailand,Nature,7,1.0,4.4,Experience the authentic culture and history of Bangkok at this renowned nature site.,9:00 AM - 6:00 PM
+219,Bangkok Architecture Center,Bangkok,Thailand,Architecture,9,4.0,4.4,A must-visit architecture landmark offering breathtaking views and cultural insights.,10:00 AM - 8:00 PM
+220,Bangkok Market Center,Bangkok,Thailand,Market,1,4.0,4.9,A must-visit market landmark offering breathtaking views and cultural insights.,8:00 AM - 5:00 PM
+221,Ancient Bangkok,Bangkok,Thailand,Historical,16,2.0,4.9,Experience the authentic culture and history of Bangkok at this renowned historical site.,8:00 AM - 5:00 PM
+222,Bangkok Art Museum,Bangkok,Thailand,Museum,16,3.5,3.8,A must-visit museum landmark offering breathtaking views and cultural insights.,10:00 AM - 7:00 PM
+223,Bangkok Mosque,Bangkok,Thailand,Religious,2,6.0,3.8,Discover the fascinating religious treasures of Bangkok in this world-class venue.,9:00 AM - 6:00 PM
+224,Bangkok Tower,Bangkok,Thailand,Landmark,15,2.0,4.1,Discover the fascinating landmark treasures of Bangkok in this world-class venue.,10:00 AM - 8:00 PM
+225,Bangkok Market,Bangkok,Thailand,Shopping,0,3.5,4.0,Discover the fascinating shopping treasures of Bangkok in this world-class venue.,9:00 AM - 6:00 PM
+226,Bangkok Cultural Center,Bangkok,Thailand,Cultural,20,3.0,4.0,One of Bangkok's most visited cultural destinations with stunning architecture.,10:00 AM - 8:00 PM
+227,Bangkok Entertainment Center,Bangkok,Thailand,Entertainment,42,4.0,3.5,Experience the authentic culture and history of Bangkok at this renowned entertainment site.,10:00 AM - 7:00 PM
+228,Bangkok Nature Center,Bangkok,Thailand,Nature,14,3.0,4.5,One of Bangkok's most visited nature destinations with stunning architecture.,10:00 AM - 7:00 PM
+229,Bangkok Architecture Center,Bangkok,Thailand,Architecture,13,3.0,4.0,One of Bangkok's most visited architecture destinations with stunning architecture.,9:00 AM - 6:00 PM
+230,Bangkok Market Center,Bangkok,Thailand,Market,0,8.0,3.9,Discover the fascinating market treasures of Bangkok in this world-class venue.,8:00 AM - 5:00 PM
+231,Bangkok Castle,Bangkok,Thailand,Historical,13,6.0,4.3,A must-visit historical landmark offering breathtaking views and cultural insights.,9:30 AM - 6:30 PM
+232,Bangkok History Museum,Bangkok,Thailand,Museum,20,4.0,4.6,A magnificent museum attraction showcasing the rich heritage of Bangkok.,8:00 AM - 5:00 PM
+233,Bangkok Monastery,Bangkok,Thailand,Religious,3,3.5,3.6,Discover the fascinating religious treasures of Bangkok in this world-class venue.,9:30 AM - 6:30 PM
+234,Famous Bangkok Spot,Bangkok,Thailand,Landmark,13,3.0,3.5,A must-visit landmark landmark offering breathtaking views and cultural insights.,10:00 AM - 7:00 PM
+235,Bangkok Market,Bangkok,Thailand,Shopping,0,6.0,4.2,Experience the authentic culture and history of Bangkok at this renowned shopping site.,9:30 AM - 6:30 PM
+236,Bangkok Cultural Center,Bangkok,Thailand,Cultural,13,8.0,3.6,A magnificent cultural attraction showcasing the rich heritage of Bangkok.,9:00 AM - 6:00 PM
+237,Bangkok Entertainment Center,Bangkok,Thailand,Entertainment,40,1.5,4.2,A must-visit entertainment landmark offering breathtaking views and cultural insights.,8:00 AM - 5:00 PM
+238,Bangkok Nature Center,Bangkok,Thailand,Nature,5,3.0,4.7,A magnificent nature attraction showcasing the rich heritage of Bangkok.,9:30 AM - 6:30 PM
+239,Bangkok Architecture Center,Bangkok,Thailand,Architecture,16,4.0,4.8,A magnificent architecture attraction showcasing the rich heritage of Bangkok.,9:30 AM - 6:30 PM
+240,Bangkok Market Center,Bangkok,Thailand,Market,0,1.5,3.5,One of Bangkok's most visited market destinations with stunning architecture.,10:00 AM - 8:00 PM
+241,Royal Sydney Complex,Sydney,Australia,Historical,24,4.0,4.3,A must-visit historical landmark offering breathtaking views and cultural insights.,9:30 AM - 6:30 PM
+242,Sydney History Museum,Sydney,Australia,Museum,21,3.5,4.8,Discover the fascinating museum treasures of Sydney in this world-class venue.,8:00 AM - 5:00 PM
+243,Sacred Sydney Site,Sydney,Australia,Religious,0,1.5,4.6,A magnificent religious attraction showcasing the rich heritage of Sydney.,10:00 AM - 8:00 PM
+244,Sydney Tower,Sydney,Australia,Landmark,9,5.0,4.3,Discover the fascinating landmark treasures of Sydney in this world-class venue.,10:00 AM - 7:00 PM
+245,Sydney Bazaar,Sydney,Australia,Shopping,0,6.0,4.1,Discover the fascinating shopping treasures of Sydney in this world-class venue.,8:00 AM - 5:00 PM
+246,Sydney Cultural Center,Sydney,Australia,Cultural,24,3.5,4.5,Experience the authentic culture and history of Sydney at this renowned cultural site.,9:30 AM - 6:30 PM
+247,Sydney Entertainment Center,Sydney,Australia,Entertainment,43,5.0,4.0,A must-visit entertainment landmark offering breathtaking views and cultural insights.,9:30 AM - 6:30 PM
+248,Sydney Nature Center,Sydney,Australia,Nature,11,2.0,4.3,A magnificent nature attraction showcasing the rich heritage of Sydney.,10:00 AM - 7:00 PM
+249,Sydney Architecture Center,Sydney,Australia,Architecture,12,1.5,3.5,A magnificent architecture attraction showcasing the rich heritage of Sydney.,10:00 AM - 8:00 PM
+250,Sydney Market Center,Sydney,Australia,Market,3,2.0,3.9,A magnificent market attraction showcasing the rich heritage of Sydney.,10:00 AM - 7:00 PM
+251,Traditional Sydney,Sydney,Australia,Historical,16,3.5,4.7,A must-visit historical landmark offering breathtaking views and cultural insights.,9:30 AM - 6:30 PM
+252,Sydney Gallery,Sydney,Australia,Museum,16,3.0,4.1,A magnificent museum attraction showcasing the rich heritage of Sydney.,10:00 AM - 7:00 PM
+253,Sydney Church,Sydney,Australia,Religious,3,1.5,4.9,One of Sydney's most visited religious destinations with stunning architecture.,9:00 AM - 6:00 PM
+254,Sydney Tower,Sydney,Australia,Landmark,14,2.0,4.4,A must-visit landmark landmark offering breathtaking views and cultural insights.,8:00 AM - 5:00 PM
+255,Traditional Sydney Market,Sydney,Australia,Shopping,0,5.0,4.6,One of Sydney's most visited shopping destinations with stunning architecture.,9:00 AM - 6:00 PM
+256,Sydney Cultural Center,Sydney,Australia,Cultural,19,2.0,4.7,A must-visit cultural landmark offering breathtaking views and cultural insights.,8:00 AM - 5:00 PM
+257,Sydney Entertainment Center,Sydney,Australia,Entertainment,41,2.0,4.3,Discover the fascinating entertainment treasures of Sydney in this world-class venue.,10:00 AM - 8:00 PM
+258,Sydney Nature Center,Sydney,Australia,Nature,13,8.0,5.0,A must-visit nature landmark offering breathtaking views and cultural insights.,10:00 AM - 7:00 PM
+259,Sydney Architecture Center,Sydney,Australia,Architecture,9,1.5,3.8,A must-visit architecture landmark offering breathtaking views and cultural insights.,10:00 AM - 7:00 PM
+260,Sydney Market Center,Sydney,Australia,Market,4,3.5,4.3,A must-visit market landmark offering breathtaking views and cultural insights.,24 hours
+261,Old Sydney,Sydney,Australia,Historical,14,1.0,4.8,Discover the fascinating historical treasures of Sydney in this world-class venue.,9:30 AM - 6:30 PM
+262,Modern Sydney Museum,Sydney,Australia,Museum,18,3.5,4.5,A magnificent museum attraction showcasing the rich heritage of Sydney.,9:00 AM - 6:00 PM
+263,Sydney Cathedral,Sydney,Australia,Religious,8,5.0,4.6,Discover the fascinating religious treasures of Sydney in this world-class venue.,9:00 AM - 6:00 PM
+264,Sydney Monument,Sydney,Australia,Landmark,6,8.0,3.6,Discover the fascinating landmark treasures of Sydney in this world-class venue.,9:00 AM - 6:00 PM
+265,Traditional Sydney Market,Sydney,Australia,Shopping,0,6.0,4.3,A magnificent shopping attraction showcasing the rich heritage of Sydney.,9:00 AM - 6:00 PM
+266,Sydney Cultural Center,Sydney,Australia,Cultural,23,5.0,4.9,Experience the authentic culture and history of Sydney at this renowned cultural site.,10:00 AM - 7:00 PM
+267,Sydney Entertainment Center,Sydney,Australia,Entertainment,46,3.0,4.9,A magnificent entertainment attraction showcasing the rich heritage of Sydney.,10:00 AM - 7:00 PM
+268,Sydney Nature Center,Sydney,Australia,Nature,12,2.5,4.8,A magnificent nature attraction showcasing the rich heritage of Sydney.,8:00 AM - 5:00 PM
+269,Sydney Architecture Center,Sydney,Australia,Architecture,17,1.0,3.5,Experience the authentic culture and history of Sydney at this renowned architecture site.,10:00 AM - 8:00 PM
+270,Sydney Market Center,Sydney,Australia,Market,4,4.0,3.7,A must-visit market landmark offering breathtaking views and cultural insights.,10:00 AM - 7:00 PM
+271,Traditional Mumbai,Mumbai,India,Historical,20,5.0,3.8,A magnificent historical attraction showcasing the rich heritage of Mumbai.,8:00 AM - 5:00 PM
+272,Mumbai Art Museum,Mumbai,India,Museum,28,2.0,4.0,A magnificent museum attraction showcasing the rich heritage of Mumbai.,9:00 AM - 6:00 PM
+273,Mumbai Shrine,Mumbai,India,Religious,8,3.5,4.5,Discover the fascinating religious treasures of Mumbai in this world-class venue.,9:00 AM - 6:00 PM
+274,Mumbai Viewpoint,Mumbai,India,Landmark,6,6.0,4.1,A magnificent landmark attraction showcasing the rich heritage of Mumbai.,10:00 AM - 7:00 PM
+275,Mumbai Bazaar,Mumbai,India,Shopping,0,3.0,3.6,One of Mumbai's most visited shopping destinations with stunning architecture.,10:00 AM - 7:00 PM
+276,Mumbai Cultural Center,Mumbai,India,Cultural,16,1.5,4.0,A magnificent cultural attraction showcasing the rich heritage of Mumbai.,8:00 AM - 5:00 PM
+277,Mumbai Entertainment Center,Mumbai,India,Entertainment,32,2.0,4.7,A magnificent entertainment attraction showcasing the rich heritage of Mumbai.,9:30 AM - 6:30 PM
+278,Mumbai Nature Center,Mumbai,India,Nature,10,3.5,4.5,Experience the authentic culture and history of Mumbai at this renowned nature site.,10:00 AM - 8:00 PM
+279,Mumbai Architecture Center,Mumbai,India,Architecture,15,3.0,3.7,Discover the fascinating architecture treasures of Mumbai in this world-class venue.,10:00 AM - 8:00 PM
+280,Mumbai Market Center,Mumbai,India,Market,3,2.0,4.6,Experience the authentic culture and history of Mumbai at this renowned market site.,10:00 AM - 8:00 PM
+281,Mumbai Castle,Mumbai,India,Historical,17,4.0,4.5,A must-visit historical landmark offering breathtaking views and cultural insights.,10:00 AM - 8:00 PM
+282,Mumbai Art Museum,Mumbai,India,Museum,15,3.0,4.9,A must-visit museum landmark offering breathtaking views and cultural insights.,10:00 AM - 8:00 PM
+283,Mumbai Shrine,Mumbai,India,Religious,7,3.5,4.7,A magnificent religious attraction showcasing the rich heritage of Mumbai.,10:00 AM - 8:00 PM
+284,Famous Mumbai Spot,Mumbai,India,Landmark,7,6.0,3.6,A magnificent landmark attraction showcasing the rich heritage of Mumbai.,8:00 AM - 5:00 PM
+285,Traditional Mumbai Market,Mumbai,India,Shopping,0,2.0,4.7,Experience the authentic culture and history of Mumbai at this renowned shopping site.,9:00 AM - 6:00 PM
+286,Mumbai Cultural Center,Mumbai,India,Cultural,14,1.0,4.3,Experience the authentic culture and history of Mumbai at this renowned cultural site.,9:00 AM - 6:00 PM
+287,Mumbai Entertainment Center,Mumbai,India,Entertainment,47,5.0,3.7,A must-visit entertainment landmark offering breathtaking views and cultural insights.,9:30 AM - 6:30 PM
+288,Mumbai Nature Center,Mumbai,India,Nature,10,3.0,3.7,A must-visit nature landmark offering breathtaking views and cultural insights.,10:00 AM - 7:00 PM
+289,Mumbai Architecture Center,Mumbai,India,Architecture,12,3.0,4.6,Experience the authentic culture and history of Mumbai at this renowned architecture site.,9:00 AM - 6:00 PM
+290,Mumbai Market Center,Mumbai,India,Market,0,1.0,3.5,A must-visit market landmark offering breathtaking views and cultural insights.,10:00 AM - 7:00 PM
+291,Ancient Mumbai,Mumbai,India,Historical,25,6.0,4.6,Discover the fascinating historical treasures of Mumbai in this world-class venue.,8:00 AM - 5:00 PM
+292,Modern Mumbai Museum,Mumbai,India,Museum,30,5.0,3.5,Experience the authentic culture and history of Mumbai at this renowned museum site.,8:00 AM - 5:00 PM
+293,Mumbai Mosque,Mumbai,India,Religious,5,4.0,4.4,One of Mumbai's most visited religious destinations with stunning architecture.,10:00 AM - 7:00 PM
+294,Mumbai Bridge,Mumbai,India,Landmark,13,6.0,3.8,Discover the fascinating landmark treasures of Mumbai in this world-class venue.,9:00 AM - 6:00 PM
+295,Mumbai Fashion Street,Mumbai,India,Shopping,0,3.5,4.6,Experience the authentic culture and history of Mumbai at this renowned shopping site.,9:00 AM - 6:00 PM
+296,Mumbai Cultural Center,Mumbai,India,Cultural,21,1.5,4.9,One of Mumbai's most visited cultural destinations with stunning architecture.,9:00 AM - 6:00 PM
+297,Mumbai Entertainment Center,Mumbai,India,Entertainment,24,2.5,3.9,One of Mumbai's most visited entertainment destinations with stunning architecture.,8:00 AM - 5:00 PM
+298,Mumbai Nature Center,Mumbai,India,Nature,15,5.0,4.1,Experience the authentic culture and history of Mumbai at this renowned nature site.,9:00 AM - 6:00 PM
+299,Mumbai Architecture Center,Mumbai,India,Architecture,18,3.0,4.5,Discover the fascinating architecture treasures of Mumbai in this world-class venue.,10:00 AM - 8:00 PM
+300,Mumbai Market Center,Mumbai,India,Market,3,8.0,4.1,One of Mumbai's most visited market destinations with stunning architecture.,10:00 AM - 7:00 PM

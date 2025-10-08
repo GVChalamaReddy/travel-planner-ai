@@ -1,0 +1,223 @@
+2025-10-03 14:29:26,461 - __main__ - ERROR - Error loading datasets: [Errno 2] No such file or directory: 'travel_hotels_complete.csv'
+2025-10-03 14:29:26,540 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.152.242.229:5000
+2025-10-03 14:29:26,540 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-03 14:29:26,540 - werkzeug - INFO -  * Restarting with stat
+2025-10-03 14:29:28,587 - __main__ - ERROR - Error loading datasets: [Errno 2] No such file or directory: 'travel_hotels_complete.csv'
+2025-10-03 14:29:28,617 - werkzeug - WARNING -  * Debugger is active!
+2025-10-03 14:29:28,617 - werkzeug - INFO -  * Debugger PIN: 139-368-321
+2025-10-03 14:33:10,665 - __main__ - INFO - Travel datasets loaded successfully!
+2025-10-03 14:33:10,716 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.152.242.229:5000
+2025-10-03 14:33:10,716 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-03 14:33:10,716 - werkzeug - INFO -  * Restarting with stat
+2025-10-03 14:33:12,571 - __main__ - INFO - Travel datasets loaded successfully!
+2025-10-03 14:33:12,602 - werkzeug - WARNING -  * Debugger is active!
+2025-10-03 14:33:12,608 - werkzeug - INFO -  * Debugger PIN: 139-368-321
+2025-10-03 14:35:08,982 - werkzeug - INFO -  * Detected change in 'C:\\Users\\chala\\IdeaProjects\\TravelPlannerAI\\travel_chatbot_complete.py', reloading
+2025-10-03 14:35:08,982 - werkzeug - INFO -  * Detected change in 'C:\\Users\\chala\\IdeaProjects\\TravelPlannerAI\\travel_chatbot_complete.py', reloading
+2025-10-03 14:35:09,163 - werkzeug - INFO -  * Restarting with stat
+2025-10-03 14:35:11,230 - __main__ - INFO - Travel datasets loaded successfully!
+2025-10-03 14:35:11,278 - werkzeug - WARNING -  * Debugger is active!
+2025-10-03 14:35:11,288 - werkzeug - INFO -  * Debugger PIN: 139-368-321
+2025-10-03 14:35:30,120 - __main__ - INFO - Travel datasets loaded successfully!
+2025-10-03 14:35:30,171 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.152.242.229:5000
+2025-10-03 14:35:30,171 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-03 14:35:30,171 - werkzeug - INFO -  * Restarting with stat
+2025-10-03 14:35:32,126 - __main__ - INFO - Travel datasets loaded successfully!
+2025-10-03 14:35:32,157 - werkzeug - WARNING -  * Debugger is active!
+2025-10-03 14:35:32,160 - werkzeug - INFO -  * Debugger PIN: 139-368-321
+2025-10-03 14:36:11,120 - werkzeug - INFO -  * Detected change in 'C:\\Users\\chala\\IdeaProjects\\TravelPlannerAI\\travel_chatbot_complete.py', reloading
+2025-10-03 14:36:11,120 - werkzeug - INFO -  * Detected change in 'C:\\Users\\chala\\IdeaProjects\\TravelPlannerAI\\travel_chatbot_complete.py', reloading
+2025-10-03 14:36:11,231 - werkzeug - INFO -  * Restarting with stat
+2025-10-03 14:36:13,607 - __main__ - INFO - Travel datasets loaded successfully!
+2025-10-03 14:36:13,607 - __main__ - INFO - 🌍 Travel Planner AI Chatbot starting - Advanced implementation with security and function calling
+2025-10-03 14:36:13,623 - werkzeug - WARNING -  * Debugger is active!
+2025-10-03 14:36:13,639 - werkzeug - INFO -  * Debugger PIN: 139-368-321
+2025-10-03 14:36:42,691 - __main__ - INFO - Travel datasets loaded successfully!
+2025-10-03 14:36:42,691 - __main__ - INFO - 🌍 Travel Planner AI Chatbot starting - Advanced implementation with security and function calling
+2025-10-03 14:36:42,723 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.152.242.229:5000
+2025-10-03 14:36:42,723 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-03 14:36:42,723 - werkzeug - INFO -  * Restarting with stat
+2025-10-03 14:36:44,711 - __main__ - INFO - Travel datasets loaded successfully!
+2025-10-03 14:36:44,711 - __main__ - INFO - 🌍 Travel Planner AI Chatbot starting - Advanced implementation with security and function calling
+2025-10-03 14:36:44,742 - werkzeug - WARNING -  * Debugger is active!
+2025-10-03 14:36:44,742 - werkzeug - INFO -  * Debugger PIN: 139-368-321
+2025-10-03 14:37:09,168 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2025 14:37:09] "GET / HTTP/1.1" 200 -
+2025-10-03 14:37:10,972 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2025 14:37:10] "GET /api/travel-destinations HTTP/1.1" 200 -
+2025-10-03 14:37:10,988 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2025 14:37:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-03 14:37:37,924 - travel - INFO - Travel query approved - User: travel_1759482430004_j1a0h82fy, Score: 0.37
+2025-10-03 14:37:39,488 - __main__ - INFO - Travel function called: search_hotels with args: {'city': 'Paris', 'budget_max': 400, 'category': 'luxury'}
+2025-10-03 14:37:42,046 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2025 14:37:42] "POST /api/chat HTTP/1.1" 200 -
+2025-10-03 14:37:49,903 - travel - INFO - Travel query approved - User: travel_1759482430004_j1a0h82fy, Score: 0.83
+2025-10-03 14:37:53,205 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2025 14:37:53] "POST /api/chat HTTP/1.1" 200 -
+2025-10-03 14:38:43,571 - security - WARNING - Security threat detected - User: travel_1759482430004_j1a0h82fy, Category: high_threat, Matches: ['kill']
+2025-10-03 14:38:43,571 - security - ERROR - Security violation - Session: travel_1759482430004_j1a0h82fy, Type: high_threat
+2025-10-03 14:38:43,571 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2025 14:38:43] "POST /api/chat HTTP/1.1" 200 -
+2025-10-03 14:39:00,261 - security - WARNING - Security threat detected - User: travel_1759482430004_j1a0h82fy, Category: inappropriate, Matches: ['porn']
+2025-10-03 14:39:00,261 - security - ERROR - Security violation - Session: travel_1759482430004_j1a0h82fy, Type: inappropriate
+2025-10-03 14:39:00,261 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2025 14:39:00] "POST /api/chat HTTP/1.1" 200 -
+2025-10-03 14:39:17,649 - __main__ - INFO - Travel chat session travel_1759482430004_j1a0h82fy reset
+2025-10-03 14:39:17,649 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2025 14:39:17] "POST /api/reset-chat HTTP/1.1" 200 -
+2025-10-03 14:41:24,905 - travel - INFO - Travel query approved - User: travel_1759482557652_vw0housyc, Score: 0.48
+2025-10-03 14:41:26,519 - __main__ - INFO - Travel function called: search_hotels with args: {'city': 'Paris', 'budget_max': 400, 'category': 'luxury'}
+2025-10-03 14:41:28,449 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2025 14:41:28] "POST /api/chat HTTP/1.1" 200 -
+2025-10-03 14:41:40,801 - travel - INFO - Travel query approved - User: travel_1759482557652_vw0housyc, Score: 0.48
+2025-10-03 14:41:43,198 - __main__ - INFO - Travel function called: search_hotels with args: {'city': 'Paris', 'budget_max': 4000, 'category': 'luxury'}
+2025-10-03 14:41:46,476 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2025 14:41:46] "POST /api/chat HTTP/1.1" 200 -
+2025-10-03 14:42:55,690 - travel - INFO - Travel query approved - User: travel_1759482557652_vw0housyc, Score: 0.48
+2025-10-03 14:42:57,129 - __main__ - INFO - Travel function called: search_hotels with args: {'city': 'Paris', 'budget_max': 400, 'category': 'luxury'}
+2025-10-03 14:42:58,422 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2025 14:42:58] "POST /api/chat HTTP/1.1" 200 -
+2025-10-03 14:43:07,780 - travel - INFO - Travel query approved - User: travel_1759482557652_vw0housyc, Score: 0.56
+2025-10-03 14:43:09,004 - __main__ - INFO - Travel function called: search_hotels with args: {'city': 'Paris', 'budget_max': 400}
+2025-10-03 14:43:11,857 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2025 14:43:11] "POST /api/chat HTTP/1.1" 200 -
+2025-10-03 14:44:46,936 - travel - INFO - Travel query approved - User: travel_1759482557652_vw0housyc, Score: 1.00
+2025-10-03 14:44:48,132 - __main__ - INFO - Travel function called: get_attractions with args: {'city': 'London', 'max_entry_fee': 0}
+2025-10-03 14:44:52,028 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2025 14:44:52] "POST /api/chat HTTP/1.1" 200 -
+2025-10-03 14:44:55,381 - travel - INFO - Travel query approved - User: travel_1759482557652_vw0housyc, Score: 1.00
+2025-10-03 14:44:56,730 - __main__ - INFO - Travel function called: create_itinerary with args: {'city': 'Rome', 'duration_days': 3}
+2025-10-03 14:45:01,504 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2025 14:45:01] "POST /api/chat HTTP/1.1" 200 -
+2025-10-03 14:45:04,635 - travel - INFO - Travel query approved - User: travel_1759482557652_vw0housyc, Score: 1.00
+2025-10-03 14:45:08,932 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2025 14:45:08] "POST /api/chat HTTP/1.1" 200 -
+2025-10-03 14:45:11,951 - travel - INFO - Travel query approved - User: travel_1759482557652_vw0housyc, Score: 1.00
+2025-10-03 14:45:13,523 - __main__ - INFO - Travel function called: create_itinerary with args: {'city': 'Rome', 'duration_days': 3}
+2025-10-03 14:45:16,585 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2025 14:45:16] "POST /api/chat HTTP/1.1" 200 -
+2025-10-03 14:47:57,541 - travel - INFO - Travel query approved - User: travel_1759482557652_vw0housyc, Score: 0.50
+2025-10-03 14:47:58,814 - __main__ - INFO - Travel function called: search_hotels with args: {'city': 'Paris', 'budget_max': 150, 'category': 'budget'}
+2025-10-03 14:48:01,867 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2025 14:48:01] "POST /api/chat HTTP/1.1" 200 -
+2025-10-03 14:48:56,378 - travel - INFO - Non-travel query blocked - User: travel_1759482557652_vw0housyc, Category: other_non_travel, Score: 0.00
+2025-10-03 14:48:56,378 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2025 14:48:56] "POST /api/chat HTTP/1.1" 200 -
+2025-10-03 15:01:33,524 - werkzeug - INFO -  * Detected change in 'C:\\Users\\chala\\IdeaProjects\\TravelPlannerAI\\travel_chatbot.py', reloading
+2025-10-03 15:01:33,628 - werkzeug - INFO -  * Restarting with stat
+2025-10-03 15:02:05,374 - __main__ - INFO - Travel datasets loaded successfully!
+2025-10-03 15:02:05,376 - __main__ - INFO - 🌍 Travel Planner AI Chatbot starting - Advanced implementation with security and function calling
+2025-10-03 15:02:05,421 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.152.242.229:5000
+2025-10-03 15:02:05,421 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-03 15:02:05,421 - werkzeug - INFO -  * Restarting with stat
+2025-10-03 15:02:07,339 - __main__ - INFO - Travel datasets loaded successfully!
+2025-10-03 15:02:07,341 - __main__ - INFO - 🌍 Travel Planner AI Chatbot starting - Advanced implementation with security and function calling
+2025-10-03 15:02:07,360 - werkzeug - WARNING -  * Debugger is active!
+2025-10-03 15:02:07,375 - werkzeug - INFO -  * Debugger PIN: 139-368-321
+2025-10-03 15:02:27,875 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2025 15:02:27] "GET / HTTP/1.1" 200 -
+2025-10-03 15:02:28,609 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2025 15:02:28] "GET /api/travel-destinations HTTP/1.1" 200 -
+2025-10-03 15:03:31,197 - travel - INFO - Travel query approved - User: travel_1759483948202_mzhhp9zfc, Score: 0.95
+2025-10-03 15:03:32,446 - __main__ - INFO - Travel function called: search_hotels with args: {'city': 'Rome', 'budget_max': 400, 'category': 'budget'}
+2025-10-03 15:03:35,147 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2025 15:03:35] "POST /api/chat HTTP/1.1" 200 -
+2025-10-03 15:03:40,049 - __main__ - INFO - Travel chat session travel_1759483948202_mzhhp9zfc reset
+2025-10-03 15:03:40,049 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2025 15:03:40] "POST /api/reset-chat HTTP/1.1" 200 -
+2025-10-03 16:03:03,557 - __main__ - INFO - Travel datasets loaded successfully!
+2025-10-03 16:03:03,557 - __main__ - INFO - 🌍 Travel Planner AI Chatbot starting - Advanced implementation with security and function calling
+2025-10-03 16:03:03,588 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.152.242.229:5000
+2025-10-03 16:03:03,588 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-03 16:03:03,588 - werkzeug - INFO -  * Restarting with stat
+2025-10-03 16:03:05,148 - __main__ - INFO - Travel datasets loaded successfully!
+2025-10-03 16:03:05,148 - __main__ - INFO - 🌍 Travel Planner AI Chatbot starting - Advanced implementation with security and function calling
+2025-10-03 16:03:05,164 - werkzeug - WARNING -  * Debugger is active!
+2025-10-03 16:03:05,164 - werkzeug - INFO -  * Debugger PIN: 402-962-270
+2025-10-03 16:03:14,224 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2025 16:03:14] "GET / HTTP/1.1" 200 -
+2025-10-03 16:03:15,222 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2025 16:03:15] "GET /api/travel-destinations HTTP/1.1" 200 -
+2025-10-03 16:03:15,521 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2025 16:03:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-03 16:03:17,631 - travel - INFO - Travel query approved - User: travel_1759487594567_x8rz7kqhn, Score: 0.83
+2025-10-03 16:03:20,283 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2025 16:03:20] "POST /api/chat HTTP/1.1" 200 -
+2025-10-03 16:03:30,922 - security - WARNING - Security threat detected - User: travel_1759487594567_x8rz7kqhn, Category: high_threat, Matches: ['kill']
+2025-10-03 16:03:30,922 - security - ERROR - Security violation - Session: travel_1759487594567_x8rz7kqhn, Type: high_threat
+2025-10-03 16:03:30,927 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2025 16:03:30] "POST /api/chat HTTP/1.1" 200 -
+2025-10-03 16:03:55,990 - travel - INFO - Non-travel query blocked - User: travel_1759487594567_x8rz7kqhn, Category: entertainment, Score: 0.00
+2025-10-03 16:03:55,990 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2025 16:03:55] "POST /api/chat HTTP/1.1" 200 -
+2025-10-03 16:04:13,567 - security - WARNING - Security threat detected - User: travel_1759487594567_x8rz7kqhn, Category: inappropriate, Matches: ['porn']
+2025-10-03 16:04:13,567 - security - ERROR - Security violation - Session: travel_1759487594567_x8rz7kqhn, Type: inappropriate
+2025-10-03 16:04:13,567 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2025 16:04:13] "POST /api/chat HTTP/1.1" 200 -
+2025-10-03 16:04:22,748 - __main__ - INFO - Travel chat session travel_1759487594567_x8rz7kqhn reset
+2025-10-03 16:04:22,748 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2025 16:04:22] "POST /api/reset-chat HTTP/1.1" 200 -
+2025-10-06 10:13:38,893 - __main__ - INFO - Travel datasets loaded successfully!
+2025-10-06 10:13:38,893 - __main__ - INFO - 🌍 Travel Planner AI Chatbot starting - Advanced implementation with security and function calling
+2025-10-06 10:13:38,973 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.5:5000
+2025-10-06 10:13:38,973 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-06 10:13:38,973 - werkzeug - INFO -  * Restarting with stat
+2025-10-06 10:13:40,954 - __main__ - INFO - Travel datasets loaded successfully!
+2025-10-06 10:13:40,954 - __main__ - INFO - 🌍 Travel Planner AI Chatbot starting - Advanced implementation with security and function calling
+2025-10-06 10:13:40,969 - werkzeug - WARNING -  * Debugger is active!
+2025-10-06 10:13:40,985 - werkzeug - INFO -  * Debugger PIN: 402-962-270
+2025-10-06 10:15:39,330 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2025 10:15:39] "GET / HTTP/1.1" 200 -
+2025-10-06 10:15:39,550 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2025 10:15:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-06 10:15:39,567 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2025 10:15:39] "GET /api/travel-destinations HTTP/1.1" 200 -
+2025-10-06 10:16:29,273 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2025 10:16:29] "GET / HTTP/1.1" 200 -
+2025-10-06 10:16:29,448 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2025 10:16:29] "GET /api/travel-destinations HTTP/1.1" 200 -
+2025-10-06 10:19:25,492 - travel - INFO - Travel query approved - User: travel_1759725989366_p6oirs7hu, Score: 0.48
+2025-10-06 10:19:28,023 - __main__ - INFO - Travel function called: search_hotels with args: {'city': 'Paris', 'budget_max': 4000, 'category': 'luxury'}
+2025-10-06 10:19:30,470 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2025 10:19:30] "POST /api/chat HTTP/1.1" 200 -
+2025-10-06 10:21:53,598 - __main__ - INFO - Travel chat session travel_1759725989366_p6oirs7hu reset
+2025-10-06 10:21:53,606 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2025 10:21:53] "POST /api/reset-chat HTTP/1.1" 200 -
+2025-10-06 10:22:22,532 - travel - INFO - Travel query approved - User: travel_1759726313609_kk1vsqlvd, Score: 0.83
+2025-10-06 10:22:24,046 - __main__ - INFO - Travel function called: get_attractions with args: {'city': 'London', 'category': 'Museum'}
+2025-10-06 10:22:26,508 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2025 10:22:26] "POST /api/chat HTTP/1.1" 200 -
+2025-10-06 10:23:54,083 - __main__ - INFO - Travel chat session travel_1759726313609_kk1vsqlvd reset
+2025-10-06 10:23:54,086 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2025 10:23:54] "POST /api/reset-chat HTTP/1.1" 200 -
+2025-10-06 10:24:14,681 - travel - INFO - Travel query approved - User: travel_1759726434090_qlq7uzbau, Score: 1.00
+2025-10-06 10:24:16,061 - __main__ - INFO - Travel function called: create_itinerary with args: {'city': 'Tokyo', 'duration_days': 5}
+2025-10-06 10:24:20,328 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2025 10:24:20] "POST /api/chat HTTP/1.1" 200 -
+2025-10-06 10:24:37,026 - __main__ - INFO - Travel chat session travel_1759726434090_qlq7uzbau reset
+2025-10-06 10:24:37,026 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2025 10:24:37] "POST /api/reset-chat HTTP/1.1" 200 -
+2025-10-06 10:24:45,395 - travel - INFO - Travel query approved - User: travel_1759726477035_0vfgz29qg, Score: 1.00
+2025-10-06 10:24:46,281 - __main__ - INFO - Travel function called: create_itinerary with args: {'city': 'Tokyo', 'duration_days': 3, 'interests': 'culture, food, shopping'}
+2025-10-06 10:24:48,948 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2025 10:24:48] "POST /api/chat HTTP/1.1" 200 -
+2025-10-06 10:24:58,146 - __main__ - INFO - Travel chat session travel_1759726477035_0vfgz29qg reset
+2025-10-06 10:24:58,146 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2025 10:24:58] "POST /api/reset-chat HTTP/1.1" 200 -
+2025-10-06 10:25:11,197 - travel - INFO - Travel query approved - User: travel_1759726498151_ie55io44q, Score: 1.00
+2025-10-06 10:25:12,705 - __main__ - INFO - Travel function called: create_itinerary with args: {'city': 'Tokyo', 'duration_days': 2}
+2025-10-06 10:25:21,040 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2025 10:25:21] "POST /api/chat HTTP/1.1" 200 -
+2025-10-06 10:25:34,956 - __main__ - INFO - Travel chat session travel_1759726498151_ie55io44q reset
+2025-10-06 10:25:34,956 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2025 10:25:34] "POST /api/reset-chat HTTP/1.1" 200 -
+2025-10-06 10:25:53,972 - travel - INFO - Travel query approved - User: travel_1759726534959_fmcj6n6bv, Score: 1.00
+2025-10-06 10:25:55,604 - __main__ - INFO - Travel function called: create_itinerary with args: {'city': 'Paris', 'duration_days': 5}
+2025-10-06 10:25:58,165 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2025 10:25:58] "POST /api/chat HTTP/1.1" 200 -
+2025-10-06 10:28:08,063 - __main__ - INFO - Travel chat session travel_1759726534959_fmcj6n6bv reset
+2025-10-06 10:28:08,063 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2025 10:28:08] "POST /api/reset-chat HTTP/1.1" 200 -
+2025-10-06 10:28:18,084 - travel - INFO - Travel query approved - User: travel_1759726688079_wrfc7d6s7, Score: 1.00
+2025-10-06 10:28:18,965 - __main__ - INFO - Travel function called: get_travel_budget_estimate with args: {'city': 'Barcelona', 'duration_days': 7, 'accommodation_category': 'mid-range'}
+2025-10-06 10:28:21,385 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2025 10:28:21] "POST /api/chat HTTP/1.1" 200 -
+2025-10-06 10:29:55,934 - __main__ - INFO - Travel chat session travel_1759726688079_wrfc7d6s7 reset
+2025-10-06 10:29:55,934 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2025 10:29:55] "POST /api/reset-chat HTTP/1.1" 200 -
+2025-10-06 10:30:07,588 - travel - INFO - Travel query approved - User: travel_1759726795952_hc6ikwasr, Score: 1.00
+2025-10-06 10:30:09,353 - __main__ - INFO - Travel function called: check_weather_recommendation with args: {'city': 'Dubai', 'travel_month': 'November'}
+2025-10-06 10:30:12,222 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2025 10:30:12] "POST /api/chat HTTP/1.1" 200 -
+2025-10-06 10:34:16,913 - __main__ - INFO - Travel chat session travel_1759726795952_hc6ikwasr reset
+2025-10-06 10:34:16,913 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2025 10:34:16] "POST /api/reset-chat HTTP/1.1" 200 -
+2025-10-06 10:34:41,714 - travel - INFO - Non-travel query blocked - User: travel_1759727056918_3fkvckoca, Category: other_non_travel, Score: 0.00
+2025-10-06 10:34:41,724 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2025 10:34:41] "POST /api/chat HTTP/1.1" 200 -
+2025-10-06 10:38:57,456 - __main__ - INFO - Travel chat session travel_1759727056918_3fkvckoca reset
+2025-10-06 10:38:57,456 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2025 10:38:57] "POST /api/reset-chat HTTP/1.1" 200 -
+2025-10-06 10:39:10,088 - security - WARNING - Security threat detected - User: travel_1759727337461_8u8o96stv, Category: high_threat, Matches: ['kill']
+2025-10-06 10:39:10,088 - security - ERROR - Security violation - Session: travel_1759727337461_8u8o96stv, Type: high_threat
+2025-10-06 10:39:10,088 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2025 10:39:10] "POST /api/chat HTTP/1.1" 200 -
+2025-10-08 21:20:37,310 - __main__ - INFO - Travel datasets loaded successfully!
+2025-10-08 21:20:37,312 - __main__ - INFO - 🌍 Travel Planner AI Chatbot starting - Advanced implementation with security and function calling
+2025-10-08 21:20:37,380 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.5:5000
+2025-10-08 21:20:37,380 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-08 21:20:37,382 - werkzeug - INFO -  * Restarting with stat
+2025-10-08 21:20:39,036 - __main__ - INFO - Travel datasets loaded successfully!
+2025-10-08 21:20:39,037 - __main__ - INFO - 🌍 Travel Planner AI Chatbot starting - Advanced implementation with security and function calling
+2025-10-08 21:20:39,059 - werkzeug - WARNING -  * Debugger is active!
+2025-10-08 21:20:39,064 - werkzeug - INFO -  * Debugger PIN: 402-962-270
