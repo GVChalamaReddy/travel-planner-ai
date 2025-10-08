@@ -1,0 +1,1381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Planner AI - Advanced Travel Assistant</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .chat-container {
+            width: 1200px;
+            height: 800px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.15);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            animation: slideIn 0.8s ease-out;
+        }
+
+        @keyframes slideIn {
+            from { transform: translateY(30px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        .chat-header {
+            background: linear-gradient(45deg, #2c3e50, #3498db);
+            color: white;
+            padding: 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .chat-header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+            animation: shimmer 3s infinite;
+        }
+
+        @keyframes shimmer {
+            0% { left: -100%; }
+            100% { left: 100%; }
+        }
+
+        .header-title {
+            font-size: 28px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .header-title i {
+            font-size: 32px;
+            color: #f39c12;
+        }
+
+        .header-stats {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            font-size: 14px;
+        }
+
+        .stat-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(255,255,255,0.1);
+            padding: 8px 15px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        .status-indicator {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #27ae60;
+            animation: pulse 2s infinite;
+        }
+
+        .status-indicator.warning {
+            background: #f39c12;
+        }
+
+        .status-indicator.danger {
+            background: #e74c3c;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        .chat-content {
+            display: flex;
+            flex: 1;
+            overflow: hidden;
+        }
+
+        .chat-messages {
+            flex: 2;
+            padding: 30px;
+            overflow-y: auto;
+            background: #f8fafc;
+            position: relative;
+        }
+
+        .travel-sidebar {
+            flex: 1;
+            background: #2c3e50;
+            color: white;
+            padding: 25px;
+            overflow-y: auto;
+            border-left: 1px solid #34495e;
+        }
+
+        .sidebar-section {
+            margin-bottom: 25px;
+        }
+
+        .sidebar-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #3498db;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .destinations-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .destination-card {
+            background: #34495e;
+            padding: 12px;
+            border-radius: 8px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            border: 2px solid transparent;
+        }
+
+        .destination-card:hover {
+            background: #3498db;
+            border-color: #2980b9;
+            transform: translateY(-2px);
+        }
+
+        .destination-name {
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .destination-stats {
+            font-size: 11px;
+            opacity: 0.8;
+            margin-top: 4px;
+        }
+
+        .quick-actions {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+
+        .quick-action-btn {
+            background: #27ae60;
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 13px;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .quick-action-btn:hover {
+            background: #2ecc71;
+            transform: translateX(5px);
+        }
+
+        .function-logs {
+            background: #34495e;
+            border-radius: 8px;
+            padding: 15px;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        .log-entry {
+            font-size: 11px;
+            padding: 8px;
+            margin-bottom: 8px;
+            background: #2c3e50;
+            border-radius: 4px;
+            border-left: 3px solid #3498db;
+        }
+
+        .log-entry.error {
+            border-left-color: #e74c3c;
+        }
+
+        .log-entry.success {
+            border-left-color: #27ae60;
+        }
+
+        .message {
+            margin-bottom: 25px;
+            display: flex;
+            align-items: flex-start;
+            animation: messageSlide 0.5s ease-out;
+        }
+
+        @keyframes messageSlide {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        .message.user {
+            justify-content: flex-end;
+        }
+
+        .message-bubble {
+            max-width: 75%;
+            padding: 20px 25px;
+            border-radius: 20px;
+            word-wrap: break-word;
+            position: relative;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .message.bot .message-bubble {
+            background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+            color: #1565c0;
+            border-bottom-left-radius: 8px;
+            border: 1px solid #2196f3;
+        }
+
+        .message.user .message-bubble {
+            background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+            color: white;
+            border-bottom-right-radius: 8px;
+        }
+
+        .message.system .message-bubble {
+            background: linear-gradient(135deg, #fff3e0 0%, #ffcc02 30%);
+            color: #e65100;
+            border: 1px solid #ff9800;
+            max-width: 85%;
+        }
+
+        .message-meta {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 8px;
+            font-size: 12px;
+            opacity: 0.7;
+        }
+
+        .function-badge {
+            background: #27ae60;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 10px;
+            font-weight: bold;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .result-preview {
+            margin-top: 15px;
+            padding: 15px;
+            background: rgba(52, 152, 219, 0.1);
+            border-radius: 10px;
+            border-left: 4px solid #3498db;
+        }
+
+        .result-summary {
+            font-weight: bold;
+            color: #2980b9;
+            margin-bottom: 8px;
+        }
+
+        .result-details {
+            font-size: 13px;
+            color: #34495e;
+        }
+
+        .typing-indicator {
+            display: none;
+            padding: 20px 25px;
+            background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+            border-radius: 20px;
+            border-bottom-left-radius: 8px;
+            max-width: 75%;
+            margin-bottom: 25px;
+            border: 1px solid #2196f3;
+        }
+
+        .typing-dots {
+            display: flex;
+            gap: 6px;
+            align-items: center;
+        }
+
+        .typing-dots span {
+            width: 10px;
+            height: 10px;
+            background: #3498db;
+            border-radius: 50%;
+            animation: typing 1.4s infinite;
+        }
+
+        .typing-dots span:nth-child(2) { animation-delay: 0.2s; }
+        .typing-dots span:nth-child(3) { animation-delay: 0.4s; }
+
+        .typing-text {
+            margin-left: 15px;
+            color: #2980b9;
+            font-style: italic;
+        }
+
+        @keyframes typing {
+            0%, 60%, 100% { transform: translateY(0); }
+            30% { transform: translateY(-15px); }
+        }
+
+        .chat-input-container {
+            padding: 25px;
+            background: white;
+            border-top: 1px solid #ecf0f1;
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+
+        .input-wrapper {
+            flex: 1;
+            position: relative;
+        }
+
+        .chat-input {
+            width: 100%;
+            padding: 18px 25px;
+            border: 2px solid #bdc3c7;
+            border-radius: 30px;
+            outline: none;
+            font-size: 16px;
+            transition: all 0.3s;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .chat-input:focus {
+            border-color: #3498db;
+            box-shadow: 0 0 20px rgba(52, 152, 219, 0.2);
+        }
+
+        .input-counter {
+            position: absolute;
+            right: 25px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 12px;
+            color: #95a5a6;
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .action-btn {
+            padding: 18px 25px;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .send-btn {
+            background: linear-gradient(135deg, #27ae60 0%, #2ecc71 100%);
+            color: white;
+            min-width: 120px;
+        }
+
+        .send-btn:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(39, 174, 96, 0.3);
+        }
+
+        .send-btn:disabled {
+            background: #95a5a6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .reset-btn {
+            background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+            color: white;
+        }
+
+        .reset-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(231, 76, 60, 0.3);
+        }
+
+        .examples-btn {
+            background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);
+            color: white;
+        }
+
+        .examples-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(243, 156, 18, 0.3);
+        }
+
+        .welcome-message {
+            background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+            border: 2px solid #3498db;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 25px;
+            text-align: center;
+            box-shadow: 0 8px 25px rgba(52, 152, 219, 0.1);
+        }
+
+        .welcome-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .feature-card {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            transition: all 0.3s;
+        }
+
+        .feature-card:hover {
+            background: #e3f2fd;
+            border-color: #2196f3;
+            transform: translateY(-5px);
+        }
+
+        .feature-icon {
+            font-size: 24px;
+            color: #3498db;
+            margin-bottom: 10px;
+        }
+
+        .feature-title {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 8px;
+        }
+
+        .feature-desc {
+            font-size: 13px;
+            color: #7f8c8d;
+        }
+
+        .suggestion-pills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .suggestion-pill {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 13px;
+            transition: all 0.3s;
+        }
+
+        .suggestion-pill:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
+        }
+
+        .alert-banner {
+            background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);
+            color: white;
+            padding: 15px 25px;
+            text-align: center;
+            font-weight: bold;
+            display: none;
+        }
+
+        .alert-banner.show {
+            display: block;
+            animation: slideDown 0.5s ease-out;
+        }
+
+        @keyframes slideDown {
+            from { transform: translateY(-100%); }
+            to { transform: translateY(0); }
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            backdrop-filter: blur(5px);
+        }
+
+        .modal-content {
+            background-color: white;
+            margin: 10% auto;
+            padding: 30px;
+            border-radius: 15px;
+            width: 80%;
+            max-width: 600px;
+            max-height: 70vh;
+            overflow-y: auto;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+        }
+
+        .modal-header {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #2c3e50;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .modal-close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-left: auto;
+        }
+
+        .modal-close:hover {
+            color: #e74c3c;
+        }
+
+        .examples-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 15px;
+        }
+
+        .example-category {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            border-left: 4px solid #3498db;
+        }
+
+        .example-category-title {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .example-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .example-item {
+            padding: 8px 0;
+            cursor: pointer;
+            color: #3498db;
+            transition: all 0.3s;
+            border-bottom: 1px solid #ecf0f1;
+        }
+
+        .example-item:hover {
+            color: #2980b9;
+            background: #e3f2fd;
+            padding-left: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .chat-container {
+                width: 95vw;
+                height: 95vh;
+                border-radius: 10px;
+            }
+
+            .chat-content {
+                flex-direction: column;
+            }
+
+            .travel-sidebar {
+                max-height: 300px;
+                border-left: none;
+                border-top: 1px solid #34495e;
+            }
+
+            .message-bubble {
+                max-width: 90%;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .action-buttons {
+                flex-direction: column;
+            }
+
+            .destinations-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .loading-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(255,255,255,0.9);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 100;
+        }
+
+        .loading-spinner {
+            width: 60px;
+            height: 60px;
+            border: 4px solid #ecf0f1;
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="alert-banner" id="alertBanner">
+            <i class="fas fa-exclamation-triangle"></i>
+            <span id="alertText">Alert message here</span>
+        </div>
+
+        <div class="chat-header">
+            <div class="header-title">
+                <i class="fas fa-plane"></i>
+                Travel Planner AI
+                <span style="font-size: 14px; opacity: 0.8;">Advanced Travel Assistant</span>
+            </div>
+            <div class="header-stats">
+                <div class="stat-item">
+                    <div class="status-indicator" id="statusIndicator"></div>
+                    <span id="statusText">Active</span>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-comments"></i>
+                    <span id="messageCount">0</span>/50
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <span id="warningCount">0</span>/3
+                </div>
+            </div>
+        </div>
+
+        <div class="chat-content">
+            <div class="chat-messages" id="chatMessages">
+                <div class="loading-overlay" id="loadingOverlay">
+                    <div class="loading-spinner"></div>
+                </div>
+
+                <div class="welcome-message">
+                    <div class="welcome-title">
+                        <i class="fas fa-globe-americas"></i>
+                        Welcome to Travel Planner AI!
+                    </div>
+                    <p>Your intelligent travel companion for planning amazing trips around the world. I specialize in comprehensive travel assistance with advanced AI-powered recommendations.</p>
+
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <div class="feature-icon"><i class="fas fa-hotel"></i></div>
+                            <div class="feature-title">Smart Hotel Search</div>
+                            <div class="feature-desc">Find perfect accommodations with advanced filtering by price, category, and availability</div>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon"><i class="fas fa-map-marked-alt"></i></div>
+                            <div class="feature-title">Attraction Discovery</div>
+                            <div class="feature-desc">Explore top-rated attractions and hidden gems with detailed information and reviews</div>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon"><i class="fas fa-calendar-alt"></i></div>
+                            <div class="feature-title">Custom Itineraries</div>
+                            <div class="feature-desc">Create detailed day-by-day travel plans tailored to your interests and schedule</div>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon"><i class="fas fa-calculator"></i></div>
+                            <div class="feature-title">Budget Planning</div>
+                            <div class="feature-desc">Get accurate cost estimates for accommodation, attractions, meals, and transportation</div>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon"><i class="fas fa-cloud-sun"></i></div>
+                            <div class="feature-title">Weather Insights</div>
+                            <div class="feature-desc">Receive optimal travel timing recommendations based on weather patterns</div>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+                            <div class="feature-title">Safe & Secure</div>
+                            <div class="feature-desc">Advanced security features ensure safe and appropriate travel planning assistance</div>
+                        </div>
+                    </div>
+
+                    <div class="suggestion-pills">
+                        <button class="suggestion-pill" onclick="sendQuickMessage('Find luxury hotels in Paris under $400')">
+                            <i class="fas fa-hotel"></i> Paris Hotels
+                        </button>
+                        <button class="suggestion-pill" onclick="sendQuickMessage('Create a 5-day Tokyo itinerary')">
+                            <i class="fas fa-route"></i> Tokyo Itinerary
+                        </button>
+                        <button class="suggestion-pill" onclick="sendQuickMessage('What\'s the budget for a Barcelona trip?')">
+                            <i class="fas fa-euro-sign"></i> Barcelona Budget
+                        </button>
+                        <button class="suggestion-pill" onclick="sendQuickMessage('Best attractions in London')">
+                            <i class="fas fa-landmark"></i> London Attractions
+                        </button>
+                        <button class="suggestion-pill" onclick="sendQuickMessage('Weather in Dubai in December')">
+                            <i class="fas fa-thermometer-half"></i> Dubai Weather
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="travel-sidebar" id="travelSidebar">
+                <div class="sidebar-section">
+                    <div class="sidebar-title">
+                        <i class="fas fa-globe"></i>
+                        Available Destinations
+                    </div>
+                    <div class="destinations-grid" id="destinationsGrid">
+                        <div class="destination-card" onclick="sendQuickMessage('Tell me about hotels in Paris')">
+                            <div class="destination-name">Paris</div>
+                            <div class="destination-stats">Hotels • Attractions</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sidebar-section">
+                    <div class="sidebar-title">
+                        <i class="fas fa-bolt"></i>
+                        Quick Actions
+                    </div>
+                    <div class="quick-actions">
+                        <button class="quick-action-btn" onclick="sendQuickMessage('Show me budget hotels in Tokyo')">
+                            <i class="fas fa-bed"></i> Budget Hotels
+                        </button>
+                        <button class="quick-action-btn" onclick="sendQuickMessage('Free attractions in London')">
+                            <i class="fas fa-gift"></i> Free Attractions
+                        </button>
+                        <button class="quick-action-btn" onclick="sendQuickMessage('3-day Rome itinerary')">
+                            <i class="fas fa-list"></i> Quick Itinerary
+                        </button>
+                        <button class="quick-action-btn" onclick="sendQuickMessage('Best time to visit Bangkok')">
+                            <i class="fas fa-calendar"></i> Travel Timing
+                        </button>
+                    </div>
+                </div>
+
+                <div class="sidebar-section">
+                    <div class="sidebar-title">
+                        <i class="fas fa-cogs"></i>
+                        Function Activity
+                    </div>
+                    <div class="function-logs" id="functionLogs">
+                        <div class="log-entry">
+                            <strong>System Ready</strong><br>
+                            <small>Travel planning functions initialized</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="typing-indicator" id="typingIndicator">
+            <div class="typing-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span class="typing-text">AI is planning your perfect trip...</span>
+            </div>
+        </div>
+
+        <div class="chat-input-container">
+            <div class="input-wrapper">
+                <input type="text" class="chat-input" id="chatInput" 
+                       placeholder="Ask me anything about travel planning..." 
+                       onkeypress="handleKeyPress(event)"
+                       maxlength="500">
+                <div class="input-counter" id="inputCounter">0/500</div>
+            </div>
+            <div class="action-buttons">
+                <button class="action-btn send-btn" id="sendBtn" onclick="sendMessage()">
+                    <i class="fas fa-paper-plane"></i> Send
+                </button>
+                <button class="action-btn reset-btn" onclick="resetChat()">
+                    <i class="fas fa-refresh"></i> Reset
+                </button>
+                <button class="action-btn examples-btn" onclick="showExamplesModal()">
+                    <i class="fas fa-lightbulb"></i> Examples
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Examples Modal -->
+    <div id="examplesModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <i class="fas fa-lightbulb"></i>
+                Travel Query Examples
+                <span class="modal-close" onclick="closeExamplesModal()">&times;</span>
+            </div>
+            <div class="examples-grid">
+                <div class="example-category">
+                    <div class="example-category-title">
+                        <i class="fas fa-hotel"></i>
+                        Hotel & Accommodation Searches
+                    </div>
+                    <ul class="example-list">
+                        <li class="example-item" onclick="useExample('Find luxury hotels in Paris under $400 per night')">Find luxury hotels in Paris under $400 per night</li>
+                        <li class="example-item" onclick="useExample('Show me budget accommodations in Tokyo')">Show me budget accommodations in Tokyo</li>
+                        <li class="example-item" onclick="useExample('Mid-range hotels in Barcelona with pools')">Mid-range hotels in Barcelona with pools</li>
+                        <li class="example-item" onclick="useExample('Available hotels in Dubai for December')">Available hotels in Dubai for December</li>
+                    </ul>
+                </div>
+
+                <div class="example-category">
+                    <div class="example-category-title">
+                        <i class="fas fa-map-marked-alt"></i>
+                        Attractions & Activities
+                    </div>
+                    <ul class="example-list">
+                        <li class="example-item" onclick="useExample('Top museums in London')">Top museums in London</li>
+                        <li class="example-item" onclick="useExample('Free attractions in New York')">Free attractions in New York</li>
+                        <li class="example-item" onclick="useExample('Historical sites in Rome under $20 entry')">Historical sites in Rome under $20 entry</li>
+                        <li class="example-item" onclick="useExample('Shopping areas in Bangkok')">Shopping areas in Bangkok</li>
+                    </ul>
+                </div>
+
+                <div class="example-category">
+                    <div class="example-category-title">
+                        <i class="fas fa-calendar-alt"></i>
+                        Itinerary Planning
+                    </div>
+                    <ul class="example-list">
+                        <li class="example-item" onclick="useExample('Create a 5-day Tokyo itinerary for culture lovers')">Create a 5-day Tokyo itinerary for culture lovers</li>
+                        <li class="example-item" onclick="useExample('Plan a 3-day romantic trip to Paris')">Plan a 3-day romantic trip to Paris</li>
+                        <li class="example-item" onclick="useExample('Weekend itinerary for Sydney')">Weekend itinerary for Sydney</li>
+                        <li class="example-item" onclick="useExample('7-day adventure itinerary for Barcelona')">7-day adventure itinerary for Barcelona</li>
+                    </ul>
+                </div>
+
+                <div class="example-category">
+                    <div class="example-category-title">
+                        <i class="fas fa-calculator"></i>
+                        Budget Planning
+                    </div>
+                    <ul class="example-list">
+                        <li class="example-item" onclick="useExample('What\'s the budget for a 7-day trip to Japan?')">What's the budget for a 7-day trip to Japan?</li>
+                        <li class="example-item" onclick="useExample('Calculate costs for a luxury Paris weekend')">Calculate costs for a luxury Paris weekend</li>
+                        <li class="example-item" onclick="useExample('Budget travel estimates for Mumbai for 5 days')">Budget travel estimates for Mumbai for 5 days</li>
+                        <li class="example-item" onclick="useExample('Mid-range budget for Barcelona for 4 days')">Mid-range budget for Barcelona for 4 days</li>
+                    </ul>
+                </div>
+
+                <div class="example-category">
+                    <div class="example-category-title">
+                        <i class="fas fa-cloud-sun"></i>
+                        Weather & Timing
+                    </div>
+                    <ul class="example-list">
+                        <li class="example-item" onclick="useExample('Best time to visit Iceland?')">Best time to visit Iceland?</li>
+                        <li class="example-item" onclick="useExample('Weather in Dubai in March')">Weather in Dubai in March</li>
+                        <li class="example-item" onclick="useExample('When should I visit Thailand?')">When should I visit Thailand?</li>
+                        <li class="example-item" onclick="useExample('Climate in London during summer')">Climate in London during summer</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Global variables
+        let sessionId = 'travel_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+        let isProcessing = false;
+        let messageCount = 0;
+        let warningCount = 0;
+        let destinations = [];
+
+        // Initialize application
+        window.onload = function() {
+            document.getElementById('chatInput').focus();
+            loadDestinations();
+            updateInputCounter();
+
+            // Set up input counter
+            document.getElementById('chatInput').addEventListener('input', updateInputCounter);
+        };
+
+        function updateInputCounter() {
+            const input = document.getElementById('chatInput');
+            const counter = document.getElementById('inputCounter');
+            counter.textContent = `${input.value.length}/500`;
+        }
+
+        async function loadDestinations() {
+            try {
+                const response = await fetch('/api/travel-destinations');
+                const data = await response.json();
+
+                if (data.success && data.destinations) {
+                    destinations = data.destinations;
+                    renderDestinations();
+                }
+            } catch (error) {
+                console.error('Error loading destinations:', error);
+            }
+        }
+
+        function renderDestinations() {
+            const grid = document.getElementById('destinationsGrid');
+            grid.innerHTML = '';
+
+            destinations.slice(0, 8).forEach(dest => {
+                const card = document.createElement('div');
+                card.className = 'destination-card';
+                card.onclick = () => sendQuickMessage(`Tell me about ${dest.city}`);
+
+                card.innerHTML = `
+                    <div class="destination-name">${dest.city}</div>
+                    <div class="destination-stats">${dest.hotels_available} hotels • ${dest.attractions_available} attractions</div>
+                `;
+
+                grid.appendChild(card);
+            });
+        }
+
+        function updateStatusIndicators(isOffTopic = false, hasWarnings = false, violations = 0) {
+            const indicator = document.getElementById('statusIndicator');
+            const text = document.getElementById('statusText');
+            const warningCountEl = document.getElementById('warningCount');
+
+            warningCountEl.textContent = warningCount;
+
+            if (violations > 0) {
+                indicator.className = 'status-indicator danger';
+                text.textContent = 'Restricted';
+            } else if (hasWarnings || isOffTopic) {
+                indicator.className = 'status-indicator warning';
+                text.textContent = 'Warnings';
+            } else {
+                indicator.className = 'status-indicator';
+                text.textContent = 'Active';
+            }
+        }
+
+        function showAlert(message, type = 'warning') {
+            const banner = document.getElementById('alertBanner');
+            const text = document.getElementById('alertText');
+
+            text.textContent = message;
+            banner.className = `alert-banner show ${type}`;
+
+            setTimeout(() => {
+                banner.className = 'alert-banner';
+            }, 5000);
+        }
+
+        function addMessage(message, isUser = false, timestamp = null, functionData = null, isSystem = false) {
+            const messagesContainer = document.getElementById('chatMessages');
+            const messageDiv = document.createElement('div');
+
+            let messageClass = 'message ';
+            if (isUser) messageClass += 'user';
+            else if (isSystem) messageClass += 'system';
+            else messageClass += 'bot';
+
+            messageDiv.className = messageClass;
+
+            const time = timestamp || new Date().toLocaleTimeString();
+            let functionBadge = '';
+            let resultPreview = '';
+
+            if (functionData) {
+                functionBadge = `<span class="function-badge"><i class="fas fa-cog"></i> ${functionData.name}</span>`;
+
+                if (functionData.result && functionData.result.success) {
+                    const result = functionData.result;
+                    if (result.hotels) {
+                        resultPreview = `
+                            <div class="result-preview">
+                                <div class="result-summary">Found ${result.hotels_found} hotels in ${result.city}</div>
+                                <div class="result-details">Average price: $${result.statistics?.average_price}/night • Average rating: ${result.statistics?.average_rating}/5</div>
+                            </div>`;
+                    } else if (result.attractions) {
+                        resultPreview = `
+                            <div class="result-preview">
+                                <div class="result-summary">Found ${result.attractions_found} attractions in ${result.city}</div>
+                                <div class="result-details">Average rating: ${result.statistics?.average_rating}/5 • ${result.statistics?.free_attractions} free attractions</div>
+                            </div>`;
+                    } else if (result.itinerary) {
+                        resultPreview = `
+                            <div class="result-preview">
+                                <div class="result-summary">${result.duration_days}-day ${result.city} itinerary created</div>
+                                <div class="result-details">Total cost: $${result.total_estimated_cost} • Daily average: $${result.daily_average_cost}</div>
+                            </div>`;
+                    } else if (result.budget_breakdown) {
+                        resultPreview = `
+                            <div class="result-preview">
+                                <div class="result-summary">Budget estimate for ${result.duration_days} days in ${result.city}</div>
+                                <div class="result-details">Total: $${result.budget_breakdown.total} • Daily: $${result.daily_average}</div>
+                            </div>`;
+                    }
+                }
+            }
+
+            messageDiv.innerHTML = `
+                <div class="message-bubble">
+                    ${message}
+                    ${resultPreview}
+                    <div class="message-meta">
+                        <span>${time}</span>
+                        ${functionBadge}
+                    </div>
+                </div>
+            `;
+
+            messagesContainer.appendChild(messageDiv);
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+        }
+
+        function addFunctionLog(functionName, status, details) {
+            const logsContainer = document.getElementById('functionLogs');
+            const logDiv = document.createElement('div');
+            logDiv.className = `log-entry ${status}`;
+
+            logDiv.innerHTML = `
+                <strong>${functionName}</strong><br>
+                <small>${details}</small><br>
+                <small style="opacity: 0.7;">${new Date().toLocaleTimeString()}</small>
+            `;
+
+            logsContainer.appendChild(logDiv);
+
+            // Keep only last 5 logs
+            while (logsContainer.children.length > 6) {
+                logsContainer.removeChild(logsContainer.children[1]);
+            }
+
+            logsContainer.scrollTop = logsContainer.scrollHeight;
+        }
+
+        function showTypingIndicator() {
+            document.getElementById('typingIndicator').style.display = 'block';
+            document.getElementById('chatMessages').scrollTop = document.getElementById('chatMessages').scrollHeight;
+        }
+
+        function hideTypingIndicator() {
+            document.getElementById('typingIndicator').style.display = 'none';
+        }
+
+        function showLoadingOverlay() {
+            document.getElementById('loadingOverlay').style.display = 'flex';
+        }
+
+        function hideLoadingOverlay() {
+            document.getElementById('loadingOverlay').style.display = 'none';
+        }
+
+        async function sendMessage() {
+            if (isProcessing) return;
+
+            const input = document.getElementById('chatInput');
+            const sendBtn = document.getElementById('sendBtn');
+            const message = input.value.trim();
+
+            if (!message) return;
+
+            if (messageCount >= 50) {
+                showAlert('Session message limit reached. Please reset the chat.', 'danger');
+                return;
+            }
+
+            // Set processing state
+            isProcessing = true;
+            input.disabled = true;
+            sendBtn.disabled = true;
+            sendBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+
+            // Add user message
+            addMessage(message, true);
+            input.value = '';
+            messageCount++;
+            document.getElementById('messageCount').textContent = messageCount;
+            updateInputCounter();
+
+            // Show typing indicator
+            showTypingIndicator();
+
+            try {
+                const response = await fetch('/api/chat', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        message: message,
+                        session_id: sessionId
+                    })
+                });
+
+                const data = await response.json();
+
+                hideTypingIndicator();
+
+                if (data.success) {
+                    if (data.off_topic) {
+                        warningCount = data.warnings || warningCount + 1;
+                        updateStatusIndicators(true, true);
+                        addMessage(data.message, false, null, null, true);
+                        addFunctionLog('Topic Validation', 'error', `Off-topic query blocked (${data.category})`);
+                        showAlert(`Off-topic warning ${warningCount}/3`, 'warning');
+
+                        // Show examples after warning
+                        if (data.travel_examples) {
+                            setTimeout(() => {
+                                let exampleMsg = "Here are some travel queries you can try:\n\n";
+                                data.travel_examples.forEach(example => {
+                                    exampleMsg += `• ${example}\n`;
+                                });
+                                addMessage(exampleMsg, false);
+                            }, 1500);
+                        }
+                    } else if (data.blocked) {
+                        addMessage(data.message, false, null, null, true);
+                        addFunctionLog('Security Check', 'error', 'Content blocked for safety');
+                        showAlert('Content blocked for security reasons', 'danger');
+                    } else if (data.session_reset) {
+                        // Handle session reset
+                        messageCount = 0;
+                        warningCount = 0;
+                        updateStatusIndicators();
+                        document.getElementById('messageCount').textContent = '0';
+                        document.getElementById('warningCount').textContent = '0';
+
+                        // Clear messages except welcome
+                        const messagesContainer = document.getElementById('chatMessages');
+                        const welcomeMessage = messagesContainer.firstElementChild;
+                        messagesContainer.innerHTML = '';
+                        messagesContainer.appendChild(welcomeMessage);
+
+                        addMessage(data.message, false, null, null, true);
+                        addFunctionLog('Session Reset', 'error', 'Chat reset due to violations');
+                        showAlert('Chat has been reset for safety', 'danger');
+                    } else {
+                        // Valid travel query
+                        updateStatusIndicators(false, false);
+
+                        const functionData = data.function_called ? {
+                            name: data.function_called,
+                            result: data.function_result,
+                            args: data.function_args
+                        } : null;
+
+                        addMessage(data.message, false, null, functionData);
+
+                        if (data.function_called) {
+                            const result = data.function_result;
+                            let logDetails = 'Function executed successfully';
+
+                            if (result.success) {
+                                if (result.hotels_found) logDetails = `Found ${result.hotels_found} hotels`;
+                                else if (result.attractions_found) logDetails = `Found ${result.attractions_found} attractions`;
+                                else if (result.itinerary) logDetails = `Created ${result.duration_days}-day itinerary`;
+                                else if (result.budget_breakdown) logDetails = `Budget: $${result.budget_breakdown.total}`;
+                                else if (result.recommendation) logDetails = result.recommendation;
+                            } else {
+                                logDetails = result.error || 'Function failed';
+                            }
+
+                            addFunctionLog(data.function_called, result.success ? 'success' : 'error', logDetails);
+                        }
+                    }
+                } else {
+                    addMessage(`Error: ${data.error}`, false, null, null, true);
+                    addFunctionLog('System Error', 'error', data.error);
+                    showAlert('System error occurred', 'danger');
+                }
+            } catch (error) {
+                hideTypingIndicator();
+                addMessage('Connection error. Please check your internet and try again.', false, null, null, true);
+                addFunctionLog('Network Error', 'error', 'Connection failed');
+                showAlert('Network connection error', 'danger');
+                console.error('Error:', error);
+            } finally {
+                // Reset input state
+                isProcessing = false;
+                input.disabled = false;
+                sendBtn.disabled = false;
+                sendBtn.innerHTML = '<i class="fas fa-paper-plane"></i> Send';
+                input.focus();
+            }
+        }
+
+        async function resetChat() {
+            showLoadingOverlay();
+
+            try {
+                const response = await fetch('/api/reset-chat', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        session_id: sessionId
+                    })
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    // Clear messages except welcome
+                    const messagesContainer = document.getElementById('chatMessages');
+                    const welcomeMessage = messagesContainer.firstElementChild;
+                    messagesContainer.innerHTML = '';
+                    messagesContainer.appendChild(welcomeMessage);
+
+                    // Reset counters
+                    messageCount = 0;
+                    warningCount = 0;
+                    updateStatusIndicators();
+                    document.getElementById('messageCount').textContent = '0';
+                    document.getElementById('warningCount').textContent = '0';
+
+                    // Clear function logs
+                    const functionLogs = document.getElementById('functionLogs');
+                    functionLogs.innerHTML = `
+                        <div class="log-entry">
+                            <strong>System Ready</strong><br>
+                            <small>Travel planning functions initialized</small>
+                        </div>
+                    `;
+
+                    // Generate new session ID
+                    sessionId = 'travel_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+
+                    addMessage('Chat reset successfully! Ready to help you plan your next adventure! 🌍✈️', false);
+                    addFunctionLog('System Reset', 'success', 'New session started');
+                    showAlert('Chat reset successfully!', 'success');
+                } else {
+                    addMessage('Failed to reset chat. Please refresh the page.', false, null, null, true);
+                    showAlert('Reset failed', 'danger');
+                }
+            } catch (error) {
+                console.error('Error resetting chat:', error);
+                addMessage('Error resetting chat. Please refresh the page.', false, null, null, true);
+                showAlert('Reset error', 'danger');
+            } finally {
+                hideLoadingOverlay();
+            }
+        }
+
+        function sendQuickMessage(message) {
+            document.getElementById('chatInput').value = message;
+            sendMessage();
+        }
+
+        function handleKeyPress(event) {
+            if (event.key === 'Enter' && !event.shiftKey) {
+                event.preventDefault();
+                sendMessage();
+            }
+        }
+
+        function showExamplesModal() {
+            document.getElementById('examplesModal').style.display = 'block';
+        }
+
+        function closeExamplesModal() {
+            document.getElementById('examplesModal').style.display = 'none';
+        }
+
+        function useExample(example) {
+            document.getElementById('chatInput').value = example;
+            closeExamplesModal();
+            sendMessage();
+        }
+
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            const modal = document.getElementById('examplesModal');
+            if (event.target === modal) {
+                closeExamplesModal();
+            }
+        }
+    </script>
+</body>
+</html>
