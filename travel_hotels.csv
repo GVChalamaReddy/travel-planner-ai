@@ -1,0 +1,201 @@
+hotel_id,name,city,country,category,price_per_night,rating,amenities,address,availability
+1,Regal Manor Paris,Paris,France,luxury,530,4.5,"WiFi,Wellness Center,Infinity Pool,Multiple Restaurants,Personal Trainer","344 Main St, Paris",True
+2,Elite Resort Paris,Paris,France,luxury,673,4.5,"WiFi,Wellness Center,Infinity Pool,Multiple Restaurants,Personal Trainer","100 Main St, Paris",True
+3,Imperial Suites Paris,Paris,France,luxury,432,4.5,"WiFi,Spa,Pool,Gym,Restaurant,Room Service,Concierge,Valet Parking","306 Plaza Blvd, Paris",False
+4,Grand Palace Paris,Paris,France,luxury,440,4.7,"WiFi,Spa,Pool,Fine Dining,Butler Service,Limousine,Casino","905 Royal Rd, Paris",True
+5,Royal Plaza Paris,Paris,France,luxury,522,4.6,"WiFi,Wellness Center,Infinity Pool,Multiple Restaurants,Personal Trainer","373 Plaza Blvd, Paris",True
+6,Grand Palace Paris,Paris,France,luxury,580,4.8,"WiFi,Wellness Center,Infinity Pool,Multiple Restaurants,Personal Trainer","211 Plaza Blvd, Paris",True
+7,Royal Plaza Paris,Paris,France,luxury,452,4.5,"WiFi,Wellness Center,Infinity Pool,Multiple Restaurants,Personal Trainer","446 Royal Rd, Paris",True
+8,Metro Hotel Paris,Paris,France,mid-range,241,3.8,"WiFi,Pool,Gym,Restaurant,Parking,Business Center","205 Main St, Paris",True
+9,Central Plaza Paris,Paris,France,mid-range,174,4.4,"WiFi,Pool,Restaurant,Laundry,24h Reception","150 Main St, Paris",True
+10,Skyline Hotel Paris,Paris,France,mid-range,182,3.9,"WiFi,Fitness Center,Cafe,Meeting Rooms,Airport Shuttle","444 Central Ave, Paris",True
+11,Metro Hotel Paris,Paris,France,mid-range,159,3.8,"WiFi,Fitness Center,Cafe,Meeting Rooms,Airport Shuttle","536 Plaza Blvd, Paris",False
+12,Skyline Hotel Paris,Paris,France,mid-range,232,3.7,"WiFi,Pool,Gym,Restaurant,Parking,Business Center","860 Plaza Blvd, Paris",True
+13,Boulevard Hotel Paris,Paris,France,mid-range,182,3.9,"WiFi,Pool,Gym,Restaurant,Parking,Business Center","104 Central Ave, Paris",False
+14,Gateway Inn Paris,Paris,France,mid-range,208,3.8,"WiFi,Fitness Center,Cafe,Meeting Rooms,Airport Shuttle","578 Main St, Paris",True
+15,Economy Stay Paris,Paris,France,budget,63,3.1,"WiFi,Luggage Storage,Tour Desk","863 Central Ave, Paris",True
+16,Traveler Inn Paris,Paris,France,budget,91,3.2,"WiFi,Common Area,Basic Amenities","852 Royal Rd, Paris",True
+17,Economy Stay Paris,Paris,France,budget,92,3.7,"WiFi,Basic Reception,Shared Kitchen","24 Main St, Paris",False
+18,Budget Lodge Paris,Paris,France,budget,92,3.9,"WiFi,Luggage Storage,Tour Desk","103 Plaza Blvd, Paris",True
+19,Simple Hotel Paris,Paris,France,budget,80,3.8,"WiFi,Luggage Storage,Tour Desk","628 Central Ave, Paris",True
+20,Economy Stay Paris,Paris,France,budget,78,3.2,"WiFi,Common Area,Basic Amenities","666 Main St, Paris",False
+21,Regal Manor London,London,UK,luxury,492,4.4,"WiFi,Spa,Pool,Fine Dining,Butler Service,Limousine,Casino","414 Royal Rd, London",True
+22,Diamond Resort London,London,UK,luxury,707,4.6,"WiFi,Spa,Pool,Fine Dining,Butler Service,Limousine,Casino","850 Main St, London",True
+23,Majestic Hotel London,London,UK,luxury,489,4.6,"WiFi,Spa,Pool,Fine Dining,Butler Service,Limousine,Casino","832 Main St, London",True
+24,Platinum Tower London,London,UK,luxury,595,4.3,"WiFi,Spa,Pool,Fine Dining,Butler Service,Limousine,Casino","785 Plaza Blvd, London",True
+25,Golden Gate London,London,UK,luxury,452,4.4,"WiFi,Spa,Pool,Fine Dining,Butler Service,Limousine,Casino","760 Central Ave, London",False
+26,Platinum Tower London,London,UK,luxury,471,4.2,"WiFi,Spa,Pool,Gym,Restaurant,Room Service,Concierge,Valet Parking","392 Main St, London",False
+27,Grand Palace London,London,UK,luxury,512,4.4,"WiFi,Spa,Pool,Fine Dining,Butler Service,Limousine,Casino","581 Main St, London",False
+28,Central Plaza London,London,UK,mid-range,222,3.6,"WiFi,Pool,Gym,Restaurant,Parking,Business Center","683 Main St, London",True
+29,Urban Stay London,London,UK,mid-range,196,4.1,"WiFi,Pool,Gym,Restaurant,Parking,Business Center","431 Royal Rd, London",True
+30,Urban Stay London,London,UK,mid-range,230,3.7,"WiFi,Fitness Center,Cafe,Meeting Rooms,Airport Shuttle","879 Plaza Blvd, London",True
+31,Urban Stay London,London,UK,mid-range,238,3.8,"WiFi,Pool,Gym,Restaurant,Parking,Business Center","901 Plaza Blvd, London",True
+32,Central Plaza London,London,UK,mid-range,239,3.9,"WiFi,Pool,Restaurant,Laundry,24h Reception","508 Plaza Blvd, London",True
+33,Gateway Inn London,London,UK,mid-range,266,3.6,"WiFi,Fitness Center,Cafe,Meeting Rooms,Airport Shuttle","982 Plaza Blvd, London",False
+34,Metro Hotel London,London,UK,mid-range,259,4.0,"WiFi,Fitness Center,Cafe,Meeting Rooms,Airport Shuttle","537 Plaza Blvd, London",False
+35,Smart Hotel London,London,UK,budget,75,3.6,"WiFi,Common Area,Basic Amenities","877 Main St, London",True
+36,Smart Hotel London,London,UK,budget,88,3.5,"WiFi,Basic Reception,Shared Kitchen","515 Plaza Blvd, London",True
+37,Thrifty Lodge London,London,UK,budget,107,3.2,"WiFi,Luggage Storage,Tour Desk","596 Plaza Blvd, London",True
+38,Thrifty Lodge London,London,UK,budget,69,3.4,"WiFi,Basic Reception,Shared Kitchen","867 Main St, London",True
+39,Essential Inn London,London,UK,budget,98,3.3,"WiFi,Luggage Storage,Tour Desk","700 Main St, London",False
+40,Economy Stay London,London,UK,budget,103,3.7,"WiFi,Luggage Storage,Tour Desk","606 Royal Rd, London",True
+41,Royal Plaza Tokyo,Tokyo,Japan,luxury,409,4.9,"WiFi,Spa,Pool,Fine Dining,Butler Service,Limousine,Casino","323 Plaza Blvd, Tokyo",False
+42,Elite Resort Tokyo,Tokyo,Japan,luxury,616,4.7,"WiFi,Spa,Pool,Fine Dining,Butler Service,Limousine,Casino","602 Main St, Tokyo",True
+43,Diamond Resort Tokyo,Tokyo,Japan,luxury,594,4.4,"WiFi,Wellness Center,Infinity Pool,Multiple Restaurants,Personal Trainer","969 Central Ave, Tokyo",True
+44,Majestic Hotel Tokyo,Tokyo,Japan,luxury,389,4.3,"WiFi,Spa,Pool,Gym,Restaurant,Room Service,Concierge,Valet Parking","369 Central Ave, Tokyo",True
+45,Crown Jewel Tokyo,Tokyo,Japan,luxury,431,4.7,"WiFi,Wellness Center,Infinity Pool,Multiple Restaurants,Personal Trainer","417 Plaza Blvd, Tokyo",True
+46,Regal Manor Tokyo,Tokyo,Japan,luxury,473,4.3,"WiFi,Spa,Pool,Gym,Restaurant,Room Service,Concierge,Valet Parking","415 Plaza Blvd, Tokyo",True
+47,Platinum Tower Tokyo,Tokyo,Japan,luxury,406,4.8,"WiFi,Spa,Pool,Gym,Restaurant,Room Service,Concierge,Valet Parking","969 Royal Rd, Tokyo",False
+48,Urban Stay Tokyo,Tokyo,Japan,mid-range,210,3.8,"WiFi,Fitness Center,Cafe,Meeting Rooms,Airport Shuttle","784 Plaza Blvd, Tokyo",False
+49,Skyline Hotel Tokyo,Tokyo,Japan,mid-range,177,4.4,"WiFi,Pool,Gym,Restaurant,Parking,Business Center","618 Main St, Tokyo",True
+50,Metro Hotel Tokyo,Tokyo,Japan,mid-range,188,4.0,"WiFi,Pool,Gym,Restaurant,Parking,Business Center","167 Plaza Blvd, Tokyo",False
+51,Boulevard Hotel Tokyo,Tokyo,Japan,mid-range,159,3.8,"WiFi,Pool,Gym,Restaurant,Parking,Business Center","890 Royal Rd, Tokyo",True
+52,City Center Hotel Tokyo,Tokyo,Japan,mid-range,229,4.4,"WiFi,Fitness Center,Cafe,Meeting Rooms,Airport Shuttle","728 Central Ave, Tokyo",True
+53,City Center Hotel Tokyo,Tokyo,Japan,mid-range,155,4.2,"WiFi,Fitness Center,Cafe,Meeting Rooms,Airport Shuttle","419 Plaza Blvd, Tokyo",True
+54,Park View Tokyo,Tokyo,Japan,mid-range,149,4.1,"WiFi,Pool,Gym,Restaurant,Parking,Business Center","601 Main St, Tokyo",True
+55,Value Stay Tokyo,Tokyo,Japan,budget,63,3.7,"WiFi,Luggage Storage,Tour Desk","774 Main St, Tokyo",True
+56,Value Stay Tokyo,Tokyo,Japan,budget,90,3.6,"WiFi,Common Area,Basic Amenities","125 Royal Rd, Tokyo",True
+57,Essential Inn Tokyo,Tokyo,Japan,budget,86,3.3,"WiFi,Basic Reception,Shared Kitchen","637 Royal Rd, Tokyo",False
+58,Basic Inn Tokyo,Tokyo,Japan,budget,78,3.2,"WiFi,Luggage Storage,Tour Desk","125 Central Ave, Tokyo",True
+59,Thrifty Lodge Tokyo,Tokyo,Japan,budget,80,3.4,"WiFi,Common Area,Basic Amenities","967 Plaza Blvd, Tokyo",False
+60,Essential Inn Tokyo,Tokyo,Japan,budget,72,4.0,"WiFi,Basic Reception,Shared Kitchen","976 Royal Rd, Tokyo",True
+61,Royal Plaza New York,New York,USA,luxury,660,4.3,"WiFi,Spa,Pool,Gym,Restaurant,Room Service,Concierge,Valet Parking","654 Royal Rd, New York",True
+62,Majestic Hotel New York,New York,USA,luxury,537,4.3,"WiFi,Spa,Pool,Gym,Restaurant,Room Service,Concierge,Valet Parking","880 Plaza Blvd, New York",True
+63,Golden Gate New York,New York,USA,luxury,736,4.2,"WiFi,Wellness Center,Infinity Pool,Multiple Restaurants,Personal Trainer","970 Central Ave, New York",True
+64,Elite Resort New York,New York,USA,luxury,493,4.9,"WiFi,Spa,Pool,Fine Dining,Butler Service,Limousine,Casino","266 Royal Rd, New York",True
+65,Regal Manor New York,New York,USA,luxury,587,4.4,"WiFi,Spa,Pool,Fine Dining,Butler Service,Limousine,Casino","89 Royal Rd, New York",True
+66,Platinum Tower New York,New York,USA,luxury,498,4.7,"WiFi,Spa,Pool,Fine Dining,Butler Service,Limousine,Casino","75 Central Ave, New York",True
+67,Elite Resort New York,New York,USA,luxury,514,4.7,"WiFi,Spa,Pool,Gym,Restaurant,Room Service,Concierge,Valet Parking","838 Plaza Blvd, New York",True
+68,Urban Stay New York,New York,USA,mid-range,279,4.1,"WiFi,Pool,Gym,Restaurant,Parking,Business Center","91 Central Ave, New York",True
+69,City Center Hotel New York,New York,USA,mid-range,279,4.4,"WiFi,Fitness Center,Cafe,Meeting Rooms,Airport Shuttle","526 Royal Rd, New York",True
+70,Metro Hotel New York,New York,USA,mid-range,226,3.9,"WiFi,Pool,Gym,Restaurant,Parking,Business Center","50 Central Ave, New York",True
+71,Metro Hotel New York,New York,USA,mid-range,258,4.0,"WiFi,Pool,Restaurant,Laundry,24h Reception","284 Plaza Blvd, New York",True
+72,Boulevard Hotel New York,New York,USA,mid-range,240,3.8,"WiFi,Pool,Gym,Restaurant,Parking,Business Center","182 Royal Rd, New York",True
+73,Metro Hotel New York,New York,USA,mid-range,252,4.5,"WiFi,Fitness Center,Cafe,Meeting Rooms,Airport Shuttle","852 Plaza Blvd, New York",False
+74,Park View New York,New York,USA,mid-range,197,4.2,"WiFi,Pool,Gym,Restaurant,Parking,Business Center","338 Main St, New York",True
+75,Simple Hotel New York,New York,USA,budget,105,3.4,"WiFi,Common Area,Basic Amenities","703 Plaza Blvd, New York",False
+76,Simple Hotel New York,New York,USA,budget,106,3.3,"WiFi,Common Area,Basic Amenities","916 Royal Rd, New York",True
+77,Essential Inn New York,New York,USA,budget,90,3.1,"WiFi,Common Area,Basic Amenities","247 Royal Rd, New York",False
+78,Thrifty Lodge New York,New York,USA,budget,115,3.7,"WiFi,Common Area,Basic Amenities","968 Main St, New York",False
+79,Value Stay New York,New York,USA,budget,111,3.8,"WiFi,Luggage Storage,Tour Desk","358 Plaza Blvd, New York",True
+80,Traveler Inn New York,New York,USA,budget,88,3.5,"WiFi,Common Area,Basic Amenities","403 Central Ave, New York",True
+81,Royal Plaza Dubai,Dubai,UAE,luxury,536,4.9,"WiFi,Wellness Center,Infinity Pool,Multiple Restaurants,Personal Trainer","77 Plaza Blvd, Dubai",False
+82,Elite Resort Dubai,Dubai,UAE,luxury,565,5.0,"WiFi,Wellness Center,Infinity Pool,Multiple Restaurants,Personal Trainer","697 Plaza Blvd, Dubai",False
+83,Golden Gate Dubai,Dubai,UAE,luxury,562,4.9,"WiFi,Spa,Pool,Gym,Restaurant,Room Service,Concierge,Valet Parking","609 Royal Rd, Dubai",True
+84,Golden Gate Dubai,Dubai,UAE,luxury,551,4.9,"WiFi,Spa,Pool,Fine Dining,Butler Service,Limousine,Casino","878 Central Ave, Dubai",True
+85,Elite Resort Dubai,Dubai,UAE,luxury,564,5.0,"WiFi,Spa,Pool,Fine Dining,Butler Service,Limousine,Casino","755 Main St, Dubai",False
+86,Regal Manor Dubai,Dubai,UAE,luxury,497,4.6,"WiFi,Spa,Pool,Fine Dining,Butler Service,Limousine,Casino","469 Central Ave, Dubai",True
+87,Imperial Suites Dubai,Dubai,UAE,luxury,518,4.6,"WiFi,Spa,Pool,Gym,Restaurant,Room Service,Concierge,Valet Parking","734 Central Ave, Dubai",False
+88,Comfort Lodge Dubai,Dubai,UAE,mid-range,204,3.9,"WiFi,Pool,Restaurant,Laundry,24h Reception","293 Royal Rd, Dubai",True
+89,Gateway Inn Dubai,Dubai,UAE,mid-range,191,3.5,"WiFi,Pool,Restaurant,Laundry,24h Reception","728 Royal Rd, Dubai",True
+90,Gateway Inn Dubai,Dubai,UAE,mid-range,147,4.0,"WiFi,Pool,Gym,Restaurant,Parking,Business Center","165 Main St, Dubai",True
+91,Metro Hotel Dubai,Dubai,UAE,mid-range,167,3.9,"WiFi,Pool,Gym,Restaurant,Parking,Business Center","298 Central Ave, Dubai",False
+92,Central Plaza Dubai,Dubai,UAE,mid-range,166,4.4,"WiFi,Pool,Gym,Restaurant,Parking,Business Center","453 Plaza Blvd, Dubai",False
+93,Metro Hotel Dubai,Dubai,UAE,mid-range,197,3.8,"WiFi,Pool,Restaurant,Laundry,24h Reception","278 Plaza Blvd, Dubai",True
+94,Park View Dubai,Dubai,UAE,mid-range,168,3.8,"WiFi,Pool,Gym,Restaurant,Parking,Business Center","638 Main St, Dubai",False
+95,Simple Hotel Dubai,Dubai,UAE,budget,63,4.0,"WiFi,Luggage Storage,Tour Desk","885 Central Ave, Dubai",True
+96,Simple Hotel Dubai,Dubai,UAE,budget,73,3.8,"WiFi,Luggage Storage,Tour Desk","115 Royal Rd, Dubai",False
+97,Traveler Inn Dubai,Dubai,UAE,budget,81,3.8,"WiFi,Common Area,Basic Amenities","279 Royal Rd, Dubai",True
+98,Simple Hotel Dubai,Dubai,UAE,budget,63,3.5,"WiFi,Common Area,Basic Amenities","348 Central Ave, Dubai",False
+99,Economy Stay Dubai,Dubai,UAE,budget,80,3.5,"WiFi,Common Area,Basic Amenities","731 Main St, Dubai",False
+100,Economy Stay Dubai,Dubai,UAE,budget,81,3.0,"WiFi,Common Area,Basic Amenities","657 Plaza Blvd, Dubai",True
+101,Diamond Resort Barcelona,Barcelona,Spain,luxury,368,4.2,"WiFi,Spa,Pool,Gym,Restaurant,Room Service,Concierge,Valet Parking","596 Central Ave, Barcelona",False
+102,Diamond Resort Barcelona,Barcelona,Spain,luxury,390,4.2,"WiFi,Wellness Center,Infinity Pool,Multiple Restaurants,Personal Trainer","56 Plaza Blvd, Barcelona",True
+103,Regal Manor Barcelona,Barcelona,Spain,luxury,308,4.9,"WiFi,Wellness Center,Infinity Pool,Multiple Restaurants,Personal Trainer","747 Main St, Barcelona",True
+104,Regal Manor Barcelona,Barcelona,Spain,luxury,304,4.7,"WiFi,Wellness Center,Infinity Pool,Multiple Restaurants,Personal Trainer","171 Plaza Blvd, Barcelona",False
+105,Majestic Hotel Barcelona,Barcelona,Spain,luxury,439,4.7,"WiFi,Spa,Pool,Fine Dining,Butler Service,Limousine,Casino","58 Central Ave, Barcelona",False
+106,Elite Resort Barcelona,Barcelona,Spain,luxury,459,4.9,"WiFi,Spa,Pool,Gym,Restaurant,Room Service,Concierge,Valet Parking","642 Plaza Blvd, Barcelona",True
+107,Imperial Suites Barcelona,Barcelona,Spain,luxury,406,4.4,"WiFi,Spa,Pool,Fine Dining,Butler Service,Limousine,Casino","68 Plaza Blvd, Barcelona",True
+108,Gateway Inn Barcelona,Barcelona,Spain,mid-range,160,4.4,"WiFi,Pool,Restaurant,Laundry,24h Reception","556 Main St, Barcelona",True
+109,City Center Hotel Barcelona,Barcelona,Spain,mid-range,142,3.6,"WiFi,Fitness Center,Cafe,Meeting Rooms,Airport Shuttle","689 Central Ave, Barcelona",True
+110,Boulevard Hotel Barcelona,Barcelona,Spain,mid-range,116,3.7,"WiFi,Pool,Restaurant,Laundry,24h Reception","796 Main St, Barcelona",True
+111,Comfort Lodge Barcelona,Barcelona,Spain,mid-range,121,4.2,"WiFi,Fitness Center,Cafe,Meeting Rooms,Airport Shuttle","264 Royal Rd, Barcelona",False
+112,Urban Stay Barcelona,Barcelona,Spain,mid-range,158,4.4,"WiFi,Pool,Restaurant,Laundry,24h Reception","894 Main St, Barcelona",False
+113,Business Inn Barcelona,Barcelona,Spain,mid-range,152,4.4,"WiFi,Pool,Restaurant,Laundry,24h Reception","529 Plaza Blvd, Barcelona",True
+114,Business Inn Barcelona,Barcelona,Spain,mid-range,126,4.0,"WiFi,Pool,Gym,Restaurant,Parking,Business Center","255 Central Ave, Barcelona",True
+115,Basic Inn Barcelona,Barcelona,Spain,budget,59,3.7,"WiFi,Luggage Storage,Tour Desk","709 Central Ave, Barcelona",False
+116,Value Stay Barcelona,Barcelona,Spain,budget,55,3.5,"WiFi,Basic Reception,Shared Kitchen","442 Royal Rd, Barcelona",True
+117,Value Stay Barcelona,Barcelona,Spain,budget,56,3.2,"WiFi,Common Area,Basic Amenities","242 Main St, Barcelona",True
+118,Smart Hotel Barcelona,Barcelona,Spain,budget,49,3.6,"WiFi,Basic Reception,Shared Kitchen","847 Central Ave, Barcelona",True
+119,Essential Inn Barcelona,Barcelona,Spain,budget,65,3.3,"WiFi,Luggage Storage,Tour Desk","138 Plaza Blvd, Barcelona",False
+120,Budget Lodge Barcelona,Barcelona,Spain,budget,67,3.9,"WiFi,Common Area,Basic Amenities","904 Plaza Blvd, Barcelona",True
+121,Grand Palace Rome,Rome,Italy,luxury,489,5.0,"WiFi,Spa,Pool,Fine Dining,Butler Service,Limousine,Casino","217 Central Ave, Rome",True
+122,Platinum Tower Rome,Rome,Italy,luxury,406,4.6,"WiFi,Spa,Pool,Fine Dining,Butler Service,Limousine,Casino","835 Royal Rd, Rome",True
+123,Grand Palace Rome,Rome,Italy,luxury,509,4.2,"WiFi,Spa,Pool,Gym,Restaurant,Room Service,Concierge,Valet Parking","704 Central Ave, Rome",True
+124,Crown Jewel Rome,Rome,Italy,luxury,480,4.4,"WiFi,Wellness Center,Infinity Pool,Multiple Restaurants,Personal Trainer","494 Plaza Blvd, Rome",True
+125,Majestic Hotel Rome,Rome,Italy,luxury,450,4.7,"WiFi,Spa,Pool,Gym,Restaurant,Room Service,Concierge,Valet Parking","920 Central Ave, Rome",True
+126,Regal Manor Rome,Rome,Italy,luxury,333,4.8,"WiFi,Spa,Pool,Fine Dining,Butler Service,Limousine,Casino","955 Central Ave, Rome",True
+127,Diamond Resort Rome,Rome,Italy,luxury,333,4.6,"WiFi,Spa,Pool,Gym,Restaurant,Room Service,Concierge,Valet Parking","807 Plaza Blvd, Rome",True
+128,Comfort Lodge Rome,Rome,Italy,mid-range,158,4.3,"WiFi,Pool,Gym,Restaurant,Parking,Business Center","980 Plaza Blvd, Rome",True
+129,Business Inn Rome,Rome,Italy,mid-range,134,4.4,"WiFi,Fitness Center,Cafe,Meeting Rooms,Airport Shuttle","720 Plaza Blvd, Rome",True
+130,Central Plaza Rome,Rome,Italy,mid-range,127,4.0,"WiFi,Pool,Gym,Restaurant,Parking,Business Center","108 Central Ave, Rome",True
+131,Business Inn Rome,Rome,Italy,mid-range,141,4.1,"WiFi,Pool,Restaurant,Laundry,24h Reception","222 Plaza Blvd, Rome",False
+132,Comfort Lodge Rome,Rome,Italy,mid-range,173,4.4,"WiFi,Pool,Gym,Restaurant,Parking,Business Center","963 Plaza Blvd, Rome",True
+133,Boulevard Hotel Rome,Rome,Italy,mid-range,177,3.8,"WiFi,Pool,Gym,Restaurant,Parking,Business Center","771 Royal Rd, Rome",True
+134,Comfort Lodge Rome,Rome,Italy,mid-range,166,4.5,"WiFi,Fitness Center,Cafe,Meeting Rooms,Airport Shuttle","761 Royal Rd, Rome",False
+135,Value Stay Rome,Rome,Italy,budget,65,3.3,"WiFi,Common Area,Basic Amenities","763 Central Ave, Rome",True
+136,Essential Inn Rome,Rome,Italy,budget,67,3.5,"WiFi,Common Area,Basic Amenities","648 Royal Rd, Rome",False
+137,Thrifty Lodge Rome,Rome,Italy,budget,73,3.6,"WiFi,Common Area,Basic Amenities","503 Royal Rd, Rome",True
+138,Value Stay Rome,Rome,Italy,budget,70,3.4,"WiFi,Luggage Storage,Tour Desk","283 Main St, Rome",True
+139,Simple Hotel Rome,Rome,Italy,budget,76,3.7,"WiFi,Luggage Storage,Tour Desk","113 Main St, Rome",True
+140,Essential Inn Rome,Rome,Italy,budget,61,3.5,"WiFi,Luggage Storage,Tour Desk","668 Royal Rd, Rome",True
+141,Imperial Suites Bangkok,Bangkok,Thailand,luxury,254,4.8,"WiFi,Spa,Pool,Gym,Restaurant,Room Service,Concierge,Valet Parking","819 Main St, Bangkok",True
+142,Elite Resort Bangkok,Bangkok,Thailand,luxury,288,4.5,"WiFi,Spa,Pool,Fine Dining,Butler Service,Limousine,Casino","174 Royal Rd, Bangkok",True
+143,Imperial Suites Bangkok,Bangkok,Thailand,luxury,300,4.6,"WiFi,Wellness Center,Infinity Pool,Multiple Restaurants,Personal Trainer","521 Royal Rd, Bangkok",False
+144,Elite Resort Bangkok,Bangkok,Thailand,luxury,290,4.9,"WiFi,Spa,Pool,Fine Dining,Butler Service,Limousine,Casino","30 Central Ave, Bangkok",True
+145,Royal Plaza Bangkok,Bangkok,Thailand,luxury,293,4.3,"WiFi,Spa,Pool,Gym,Restaurant,Room Service,Concierge,Valet Parking","248 Royal Rd, Bangkok",True
+146,Majestic Hotel Bangkok,Bangkok,Thailand,luxury,277,4.9,"WiFi,Spa,Pool,Fine Dining,Butler Service,Limousine,Casino","478 Royal Rd, Bangkok",True
+147,Grand Palace Bangkok,Bangkok,Thailand,luxury,309,4.7,"WiFi,Wellness Center,Infinity Pool,Multiple Restaurants,Personal Trainer","526 Main St, Bangkok",False
+148,Urban Stay Bangkok,Bangkok,Thailand,mid-range,116,4.5,"WiFi,Pool,Gym,Restaurant,Parking,Business Center","153 Plaza Blvd, Bangkok",True
+149,Business Inn Bangkok,Bangkok,Thailand,mid-range,76,4.1,"WiFi,Pool,Gym,Restaurant,Parking,Business Center","764 Central Ave, Bangkok",False
+150,Gateway Inn Bangkok,Bangkok,Thailand,mid-range,76,4.0,"WiFi,Pool,Restaurant,Laundry,24h Reception","883 Royal Rd, Bangkok",True
+151,City Center Hotel Bangkok,Bangkok,Thailand,mid-range,84,3.6,"WiFi,Pool,Restaurant,Laundry,24h Reception","198 Main St, Bangkok",False
+152,City Center Hotel Bangkok,Bangkok,Thailand,mid-range,75,4.2,"WiFi,Pool,Gym,Restaurant,Parking,Business Center","417 Main St, Bangkok",True
+153,Skyline Hotel Bangkok,Bangkok,Thailand,mid-range,89,4.4,"WiFi,Pool,Gym,Restaurant,Parking,Business Center","831 Central Ave, Bangkok",True
+154,Comfort Lodge Bangkok,Bangkok,Thailand,mid-range,80,3.5,"WiFi,Fitness Center,Cafe,Meeting Rooms,Airport Shuttle","544 Royal Rd, Bangkok",True
+155,Smart Hotel Bangkok,Bangkok,Thailand,budget,42,3.0,"WiFi,Common Area,Basic Amenities","478 Plaza Blvd, Bangkok",False
+156,Budget Lodge Bangkok,Bangkok,Thailand,budget,38,3.9,"WiFi,Luggage Storage,Tour Desk","75 Plaza Blvd, Bangkok",False
+157,Smart Hotel Bangkok,Bangkok,Thailand,budget,35,3.9,"WiFi,Basic Reception,Shared Kitchen","365 Main St, Bangkok",True
+158,Smart Hotel Bangkok,Bangkok,Thailand,budget,31,3.3,"WiFi,Luggage Storage,Tour Desk","628 Central Ave, Bangkok",False
+159,Economy Stay Bangkok,Bangkok,Thailand,budget,29,3.9,"WiFi,Common Area,Basic Amenities","55 Plaza Blvd, Bangkok",True
+160,Thrifty Lodge Bangkok,Bangkok,Thailand,budget,32,3.1,"WiFi,Basic Reception,Shared Kitchen","326 Main St, Bangkok",True
+161,Platinum Tower Sydney,Sydney,Australia,luxury,370,4.8,"WiFi,Spa,Pool,Fine Dining,Butler Service,Limousine,Casino","765 Central Ave, Sydney",True
+162,Platinum Tower Sydney,Sydney,Australia,luxury,455,4.8,"WiFi,Wellness Center,Infinity Pool,Multiple Restaurants,Personal Trainer","908 Main St, Sydney",True
+163,Regal Manor Sydney,Sydney,Australia,luxury,512,4.7,"WiFi,Spa,Pool,Fine Dining,Butler Service,Limousine,Casino","46 Main St, Sydney",True
+164,Royal Plaza Sydney,Sydney,Australia,luxury,383,4.7,"WiFi,Spa,Pool,Fine Dining,Butler Service,Limousine,Casino","326 Plaza Blvd, Sydney",False
+165,Golden Gate Sydney,Sydney,Australia,luxury,432,4.7,"WiFi,Wellness Center,Infinity Pool,Multiple Restaurants,Personal Trainer","527 Plaza Blvd, Sydney",True
+166,Elite Resort Sydney,Sydney,Australia,luxury,469,4.8,"WiFi,Wellness Center,Infinity Pool,Multiple Restaurants,Personal Trainer","439 Main St, Sydney",True
+167,Platinum Tower Sydney,Sydney,Australia,luxury,513,4.6,"WiFi,Spa,Pool,Fine Dining,Butler Service,Limousine,Casino","955 Royal Rd, Sydney",True
+168,Business Inn Sydney,Sydney,Australia,mid-range,173,4.2,"WiFi,Fitness Center,Cafe,Meeting Rooms,Airport Shuttle","305 Main St, Sydney",True
+169,Central Plaza Sydney,Sydney,Australia,mid-range,185,4.0,"WiFi,Pool,Gym,Restaurant,Parking,Business Center","219 Central Ave, Sydney",False
+170,Gateway Inn Sydney,Sydney,Australia,mid-range,169,3.7,"WiFi,Pool,Restaurant,Laundry,24h Reception","125 Central Ave, Sydney",False
+171,Central Plaza Sydney,Sydney,Australia,mid-range,145,4.4,"WiFi,Fitness Center,Cafe,Meeting Rooms,Airport Shuttle","528 Royal Rd, Sydney",True
+172,Boulevard Hotel Sydney,Sydney,Australia,mid-range,183,3.8,"WiFi,Pool,Restaurant,Laundry,24h Reception","713 Central Ave, Sydney",True
+173,Comfort Lodge Sydney,Sydney,Australia,mid-range,180,3.8,"WiFi,Pool,Gym,Restaurant,Parking,Business Center","787 Plaza Blvd, Sydney",True
+174,Skyline Hotel Sydney,Sydney,Australia,mid-range,141,3.8,"WiFi,Fitness Center,Cafe,Meeting Rooms,Airport Shuttle","922 Central Ave, Sydney",True
+175,Smart Hotel Sydney,Sydney,Australia,budget,63,3.8,"WiFi,Luggage Storage,Tour Desk","165 Plaza Blvd, Sydney",True
+176,Smart Hotel Sydney,Sydney,Australia,budget,69,3.7,"WiFi,Basic Reception,Shared Kitchen","838 Main St, Sydney",True
+177,Value Stay Sydney,Sydney,Australia,budget,80,3.7,"WiFi,Luggage Storage,Tour Desk","550 Central Ave, Sydney",True
+178,Basic Inn Sydney,Sydney,Australia,budget,65,3.0,"WiFi,Luggage Storage,Tour Desk","975 Royal Rd, Sydney",True
+179,Traveler Inn Sydney,Sydney,Australia,budget,58,3.9,"WiFi,Luggage Storage,Tour Desk","155 Royal Rd, Sydney",True
+180,Thrifty Lodge Sydney,Sydney,Australia,budget,59,3.3,"WiFi,Basic Reception,Shared Kitchen","187 Royal Rd, Sydney",False
+181,Royal Plaza Mumbai,Mumbai,India,luxury,251,4.4,"WiFi,Wellness Center,Infinity Pool,Multiple Restaurants,Personal Trainer","457 Central Ave, Mumbai",True
+182,Royal Plaza Mumbai,Mumbai,India,luxury,185,4.5,"WiFi,Spa,Pool,Fine Dining,Butler Service,Limousine,Casino","449 Central Ave, Mumbai",False
+183,Regal Manor Mumbai,Mumbai,India,luxury,172,4.2,"WiFi,Spa,Pool,Gym,Restaurant,Room Service,Concierge,Valet Parking","882 Plaza Blvd, Mumbai",True
+184,Diamond Resort Mumbai,Mumbai,India,luxury,192,4.9,"WiFi,Wellness Center,Infinity Pool,Multiple Restaurants,Personal Trainer","659 Central Ave, Mumbai",False
+185,Elite Resort Mumbai,Mumbai,India,luxury,175,4.7,"WiFi,Spa,Pool,Fine Dining,Butler Service,Limousine,Casino","927 Royal Rd, Mumbai",True
+186,Majestic Hotel Mumbai,Mumbai,India,luxury,219,4.7,"WiFi,Spa,Pool,Gym,Restaurant,Room Service,Concierge,Valet Parking","872 Plaza Blvd, Mumbai",True
+187,Grand Palace Mumbai,Mumbai,India,luxury,165,4.3,"WiFi,Spa,Pool,Gym,Restaurant,Room Service,Concierge,Valet Parking","832 Main St, Mumbai",True
+188,Metro Hotel Mumbai,Mumbai,India,mid-range,76,4.1,"WiFi,Fitness Center,Cafe,Meeting Rooms,Airport Shuttle","968 Main St, Mumbai",True
+189,Metro Hotel Mumbai,Mumbai,India,mid-range,68,4.1,"WiFi,Pool,Restaurant,Laundry,24h Reception","602 Central Ave, Mumbai",True
+190,Boulevard Hotel Mumbai,Mumbai,India,mid-range,67,3.8,"WiFi,Fitness Center,Cafe,Meeting Rooms,Airport Shuttle","238 Central Ave, Mumbai",True
+191,Boulevard Hotel Mumbai,Mumbai,India,mid-range,62,3.5,"WiFi,Pool,Gym,Restaurant,Parking,Business Center","237 Central Ave, Mumbai",False
+192,City Center Hotel Mumbai,Mumbai,India,mid-range,72,3.7,"WiFi,Pool,Gym,Restaurant,Parking,Business Center","589 Main St, Mumbai",False
+193,City Center Hotel Mumbai,Mumbai,India,mid-range,75,3.8,"WiFi,Fitness Center,Cafe,Meeting Rooms,Airport Shuttle","802 Main St, Mumbai",True
+194,Boulevard Hotel Mumbai,Mumbai,India,mid-range,90,4.4,"WiFi,Pool,Gym,Restaurant,Parking,Business Center","583 Central Ave, Mumbai",False
+195,Economy Stay Mumbai,Mumbai,India,budget,35,3.9,"WiFi,Common Area,Basic Amenities","266 Main St, Mumbai",True
+196,Simple Hotel Mumbai,Mumbai,India,budget,27,3.3,"WiFi,Basic Reception,Shared Kitchen","883 Royal Rd, Mumbai",True
+197,Thrifty Lodge Mumbai,Mumbai,India,budget,24,3.9,"WiFi,Common Area,Basic Amenities","540 Royal Rd, Mumbai",False
+198,Budget Lodge Mumbai,Mumbai,India,budget,36,3.8,"WiFi,Common Area,Basic Amenities","195 Main St, Mumbai",False
+199,Budget Lodge Mumbai,Mumbai,India,budget,30,3.5,"WiFi,Basic Reception,Shared Kitchen","296 Royal Rd, Mumbai",True
+200,Basic Inn Mumbai,Mumbai,India,budget,35,3.1,"WiFi,Common Area,Basic Amenities","705 Central Ave, Mumbai",False

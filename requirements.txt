@@ -1,0 +1,6 @@
+Flask==2.3.3
+Flask-CORS==4.0.0
+openai==0.28.1
+pandas==2.3.3
+python-dotenv==1.0.0
+requests==2.32.4
