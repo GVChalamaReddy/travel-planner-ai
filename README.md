@@ -325,6 +325,13 @@ OpenAI_API_Key.txt
 
 The Travel Planner AI Chatbot represents a complete solution for intelligent travel planning assistance. With comprehensive security, advanced AI integration, and modern web interface, it provides an excellent foundation for travel technology applications.
 
+## Acknowledgments
+- This project was inspired by Upgrad IIIT Bangalore PG program on ML and AI. 
+- This project was based on OpenAI Function Calling
+
+## Contact
+Created by @[GVChalamaReddy](https://github.com/GVChalamaReddy) - feel free to contact me!
+
 ---
 
 **Built using OpenAI Function Calling, Flask, and modern web technologies.**
